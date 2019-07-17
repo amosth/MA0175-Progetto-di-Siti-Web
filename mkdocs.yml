@@ -1,0 +1,24 @@
+site_name: Relazioni PSW
+nav:
+    - Home: README.md
+    - Rapporti:
+        - Rapporto WCAG 2.1 "vatican.va": wcag_vatican.md
+        - Rapporto user test "fvg.rai.it": user_test_rai.md
+    - Autori: AUTHORS.md
+theme: readthedocs
+markdown_extensions:
+    - toc:
+        permalink: '#'
+
+plugins:
+    - search:
+        separator: '[\s\-\.]+'
+        lang: ['it']
+
+site_url: https://amosth.github.io/MA0175-Progetto-di-Siti-Web/
+repo_url: https://github.com/amosth/MA0175-Progetto-di-Siti-Web
+repo_name: 'GitHub'
+site_description: 'Relazioni finali del corso di Progetto di Siti e Portali Web A.A. 2018/2019.'
+site_author: 'Enrico Basso, Amos Cappellaro, Luca Dal Poz'
+copyright: "Copyright © 2019 Enrico Basso, Amos Cappellaro, Luca Dal Poz"
+extra_css: [extra.css]

@@ -1,0 +1,30 @@
+a, a:visited {
+    color: #2e3191;
+    text-decoration: none;
+}
+a:visited {
+    color: #4c2c92;
+}
+
+a:focus {
+    background: #ffbf47;
+    outline: 3px solid #ffbf47;
+    outline-offset: 0;
+}
+
+
+.wy-menu-vertical .subnav li.current > ul li a, .wy-menu-vertical li.current a {
+    color: black;
+}
+
+.wy-side-nav-search {
+    background-color: #1B567E;
+}
+
+.wy-menu-vertical span, .wy-menu-vertical a, .wy-side-nav-search a, .wy-nav-top a {
+    color: white;
+}
+
+footer {
+    color: black;
+}
