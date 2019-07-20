@@ -6,4 +6,4 @@
 
 ## Rapporto conformità linee guida WCAG 2.1
 
-[Rapporto WCAG 2.1 "vatican.va"](wcag_vatican.md)
+[Rapporto WCAG 2.1 "vatican.va"](wcag_vatican_introduzione.md)
