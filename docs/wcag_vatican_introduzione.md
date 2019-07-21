@@ -60,6 +60,14 @@ Le pagine sono state analizzate tramite tre PC portatili con le seguenti caratte
     - Tastiera italiana QWERTY
     - Connessione a rete Wi-Fi
 - PC 2:
+    - Schermo LED da 15.6" (risoluzione 1920x1080px)
+    - Processore Intel Core i7 7700HQ (2.8 GHz)
+    - Memoria RAM 16GB
+    - Sistema operativo Windows 10 Home
+    - Browser Google Chrome
+    - Mouse ottico con rotella collegato tramite USB
+    - Tastiera italiana QWERTY
+    - Connessione a rete Wi-Fi
 - PC 3:
 
 Gli strumenti utilizzati per aiutarsi nell’analisi sono stati:
