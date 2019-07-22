@@ -1,15 +1,16 @@
 a, a:visited {
-    color: #2e3191;
+    color: #2980B9;
     text-decoration: none;
-}
-a:visited {
-    color: #4c2c92;
 }
 
 a:focus {
     background: #ffbf47;
     outline: 3px solid #ffbf47;
     outline-offset: 0;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 
@@ -24,6 +25,24 @@ a:focus {
 .wy-menu-vertical span, .wy-menu-vertical a, .wy-side-nav-search a, .wy-nav-top a {
     color: white;
 }
+
+h1, h2, h3, h4, h5, h6 {
+     margin-top: 40px;
+     margin-bottom: 4px;
+}
+
+p {
+     margin: 0;
+}
+
+body>ol, body>ul {
+     margin-bottom: 18px !important;
+}
+
+img {
+     margin-bottom: 28px;
+}
+
 
 footer {
     color: black;
