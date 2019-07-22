@@ -1,13 +1,18 @@
-site_name: Relazioni PSW
+site_name: Relazioni finali - Progetto di Siti e Portali Web
 nav:
     - Home: README.md
     - Rapporto WCAG 2.1 "vatican.va":
         - Introduzione: wcag_vatican_introduzione.md
         - Sommario risultati: wcag_vatican_sommario.md
-        - Dettaglio risultati livello A: wcag_vatican_dettaglio_A.md
-        - Dettaglio risultati livello AA: wcag_vatican_dettaglio_AA.md
+        - Risultati in dettaglio - livello A: wcag_vatican_dettaglio_A.md
+        - Risultati in dettaglio - livello AA: wcag_vatican_dettaglio_AA.md
         - Tabelle riassuntive risultati: wcag_vatican_tabelle_risultati.md
-    - Rapporto user test "fvg.rai.it": user_test_rai.md
+    - Rapporto test con utenti "sedefvg.rai.it":
+        - Introduzione: ut_sedefvg_introduzione.md
+        - Perimetro indagine: ut_sedefvg_perimetro.md
+        - Metodologia: ut_sedefvg_metodologia.md
+        - Sommario risultati: ut_sedefvg_sommario.md
+        - Risultati in dettaglio: ut_sedefvg_dettaglio.md
     - Autori: AUTHORS.md
 theme: readthedocs
 markdown_extensions:

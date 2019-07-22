@@ -1,6 +1,6 @@
 ---
-title: Tabelle riassuntive risultati rapporto conformità WCAG 2.1 del sito "vatican.va"
-summary: Tabelle riassuntive risultati rapporto  conformità WCAG 2.1 del sito "vatican.va".
+title: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Tabelle riassuntive
+summary: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Tabelle riassuntive.
 authors:
     - Enrico Basso
     - Amos Cappellaro

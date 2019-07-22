@@ -1,6 +1,6 @@
 ---
-title: Sommario rapporto conformità WCAG 2.1 del sito "vatican.va"
-summary: Sommario rapporto conformità WCAG 2.1 del sito "vatican.va".
+title: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Sommario dei risultati
+summary: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Sommario dei risultati.
 authors:
     - Enrico Basso
     - Amos Cappellaro

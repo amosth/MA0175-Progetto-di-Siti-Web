@@ -1,6 +1,6 @@
 ---
-title: Introduzione rapporto conformità WCAG 2.1 "vatican.va"
-summary: Introduzione rapporto conformità WCAG 2.1 del sito "vatican.va".
+title: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Introduzione
+summary: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Introduzione.
 authors:
     - Enrico Basso
     - Amos Cappellaro
@@ -28,7 +28,7 @@ Valutazione di conformità rispetto alle linee guida WCAG 2.1, livello di confor
 
 ### Data di stesura del rapporto
 
-Giugno 2019
+Giugno - Luglio 2019
 
 ## Descrizione delle linee guida (forse da togliere?)
 
@@ -69,6 +69,14 @@ Le pagine sono state analizzate tramite tre PC portatili con le seguenti caratte
     - Tastiera italiana QWERTY
     - Connessione a rete Wi-Fi
 - PC 3:
+    - Schermo LED da 13.3” (risoluzione 2560x1600px)
+    - Processore Intel Core i5 (3,1 GHz)
+    - Memoria RAM 8GB
+    - Sistema operativo macOS Mojave (10.14.5)
+    - Browser Google Chrome
+    - Trackpad
+    - Tastiera americana QWERTY
+    - Connessione a rete Wi-Fi
 
 Gli strumenti utilizzati per aiutarsi nell’analisi sono stati:
 
@@ -80,4 +88,13 @@ Gli strumenti utilizzati per aiutarsi nell’analisi sono stati:
 
 Spiegare perchè abbiamo scelto quelle tre pagine.
 
-Screenshots delle pagine.
+Screenshots delle pagine (scattate il giorno 22 luglio 2019):
+
+- Pagina "Home"
+![Pagina home](/img/home.png)
+
+- Pagina "Bollettino"
+![Pagina bollettino](/img/bollettino.png)
+
+- Pagina "Calendario"
+![Pagina calendario](/img/calendario.png)
