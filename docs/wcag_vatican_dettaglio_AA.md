@@ -156,7 +156,7 @@ La navigazione può risultare difficile per chi utilizza la tastiera e i lettori
 All'interno della pagina non esiste una struttura corretta di instestazioni e non vengono utilizzate etichette per i forms.
 
 <strong>POSSIBILE SOLUZIONE</strong>  
-Utilizzare correttamente le instestazioni e le etichette.
+Utilizzare correttamente le intestazioni e le etichette.
 
 <div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 2.4.7 Focus visibile</h4>
@@ -176,11 +176,18 @@ Le informazioni e le operazioni dell'interfaccia utente devono essere comprensib
 Rendere il testo leggibile e comprensibile.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 3.1.2 Parti in lingua</h4>
-
      <p>La lingua di ogni passaggio o frase nel contenuto può essere determinata programmaticamente ad eccezione di nomi propri, termini tecnici, parole in lingue indeterminate e parole o frasi che sono diventate parte integrante del gergo del testo immediatamente circostante.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
+
+<strong>SINTOMO</strong>  
+
+<strong>CAUSA</strong>  
+
+<strong>POSSIBILE SOLUZIONE</strong>  
 
 
 ### Linea guida 3.2 Prevedibile
@@ -188,16 +195,18 @@ Rendere il testo leggibile e comprensibile.
 Creare pagine Web che abbiano aspetto e funzionamento prevedibili.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 3.2.3 Navigazione coerente</h4>
-
      <p>I meccanismi di navigazione che sono ripetuti su più pagine Web all'interno di un insieme di pagine Web, appaiono nello stesso ordine relativo ogni volta che si ripetono, a meno che un cambiamento sia stato avviato da un utente.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 3.2.4 Identificazione coerente</h4>
-
      <p>I componenti che hanno la stessa funzionalità all'interno di un insieme di pagine Web sono identificati in modo coerente.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
 
@@ -212,25 +221,24 @@ Aiutare gli utenti a evitare gli errori e agevolarli nella loro correzione.
      <p>Se viene identificato un errore di inserimento e sono noti dei suggerimenti per correggerlo, tali suggerimenti vengono forniti all'utente, a meno che ciò non pregiudichi la sicurezza o la finalità del contenuto.</p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 3.3.4 Prevenzione degli errori (legali, finanziari, dati)</h4>
-
      <p>Per le pagine Web che contengono vincoli di tipo giuridico o transazioni finanziarie per l'utente che gestiscono la modifica o la cancellazione e gestione di dati controllabili dall'utente in un sistema di archiviazione oppure che inoltrano le risposte degli utenti a test, è soddisfatta almeno una delle seguenti condizioni: reversibilità, controllo, conferma.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
-
 
 ## 4. Robusto
 
 Il contenuto deve essere abbastanza robusto per essere interpretato in maniera affidabile da una grande varietà di programmi utente, comprese le tecnologie assistive.
 
-
 ### Linea guida 4.1 Compatibile
 
 Garantire la massima compatibilità con i programmi utente attuali e futuri, comprese le tecnologie assistive.
 
-
 <div class="success-criteria">
      <h4>Criterio di successo 4.1.3 Messaggi di stato</h4>
-
      <p>Nei contenuti implementati utilizzando i linguaggi di marcatura, i messaggi di stato possono essere determinati programmaticamente tramite ruolo o proprietà in modo tale che possano essere presentati all'utente mediante tecnologie assistive senza ricevere il focus.</p>
+     <br>
+     <p><strong>Esito: </strong></p>
 </div>

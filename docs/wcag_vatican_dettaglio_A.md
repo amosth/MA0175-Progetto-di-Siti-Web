@@ -309,28 +309,40 @@ Le informazioni e le operazioni dell'interfaccia utente devono essere comprensib
 
 Rendere il testo leggibile e comprensibile.
 
-
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 3.1.1 Lingua della pagina</h4>
-
      <p>L'impostazione della lingua predefinita di ogni pagina Web può essere determinata programmaticamente.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
+<br/>
+
+<strong>SINTOMO</strong>  
+Tecnologie assistive come un lettore di schermo non capiscono in quale lingua è stato scritto il documento.
+
+<strong>CAUSA</strong>  
+Assenza di un attributo ```lang```.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Aggiungere un attributo ```lang``` al tag ```<html>```.
+```html
+<html lang="it">
+```
 
 ### Linea guida 3.2 Prevedibile
 
 Creare pagine Web che abbiano aspetto e funzionamento prevedibili.
 
-
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 3.2.1 Al focus</h4>
-
      <p>Quando qualsiasi componente dell'interfaccia utente riceve il focus, non avvia un cambiamento del contesto.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
 <div class="success-criteria">
      <h4>Criterio di successo 3.2.2 All'input</h4>
-
      <p>Cambiare l'impostazione di qualsiasi componente nell'interfaccia utente non provoca automaticamente un cambiamento di contesto, a meno che l'utente sia stato informato del comportamento prima di utilizzare il componente.</p>
 </div>
 
@@ -342,13 +354,11 @@ Aiutare gli utenti a evitare gli errori e agevolarli nella loro correzione.
 
 <div class="success-criteria">
      <h4>Criterio di successo 3.3.1 Identificazione di errori</h4>
-
      <p>Se viene rilevato automaticamente un errore di inserimento, l'elemento in errore viene identificato e l'errore descritto tramite testo.</p>
 </div>
 
 <div class="success-criteria">
      <h4>Criterio di successo 3.3.2 Etichette o istruzioni</h4>
-
      <p>Sono fornite etichette o istruzioni quando il contenuto richiede azioni di input da parte dell'utente.</p>
 </div>
 
@@ -363,10 +373,11 @@ Il contenuto deve essere abbastanza robusto per essere interpretato in maniera a
 Garantire la massima compatibilità con i programmi utente attuali e futuri, comprese le tecnologie assistive.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 4.1.1 Analisi sintattica (parsing)</h4>
-
      <p>Nel contenuto implementato utilizzando linguaggi di marcatura gli elementi possiedono tag di apertura e chiusura completi, sono annidati in conformità alle proprie specifiche, non contengono attributi duplicati e tutti gli ID sono univoci, salvo i casi in cui le specifiche permettano eccezioni.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
 <div class="success-criteria">
