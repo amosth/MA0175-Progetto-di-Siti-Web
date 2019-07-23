@@ -6,4 +6,4 @@
 
 ## Rapporto di test con utenti del sito "RAI Friuli Venezia Giulia"
 
-[Vai al rapporto di test con utenti "sedefvg.rai.it"](user_test_rai.md)
+[Vai al rapporto di test con utenti "sedefvg.rai.it"](ut_sedefvg_introduzione.md)
