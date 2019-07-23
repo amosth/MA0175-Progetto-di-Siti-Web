@@ -166,22 +166,25 @@ I componenti e la navigazione dell'interfaccia utente devono essere utilizzabili
 
 Rendere disponibili tutte le funzionalità tramite tastiera.
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 2.1.1 Tastiera</h4>
-
      <p>Tutte le funzionalità del contenuto sono utilizzabili tramite un'interfaccia di tastiera senza richiedere tempi specifici per la pressione dei singoli tasti, salvo il caso in cui sia la funzionalità di fondo a richiedere un input che dipende dal percorso del movimento dell'utente e non solo dai suoi punti d'arrivo.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 2.1.2 Nessun impedimento all'uso della tastiera</h4>
-
      <p>Se il focus di tastiera può essere spostato tramite una interfaccia di tastiera su un componente della pagina, deve anche poter essere tolto dallo stesso componente usando solo la stessa interfaccia e, se a tal fine non fosse sufficiente l'uso dei normali tasti freccia o tab o l'uso di altri metodi di uscita standard, l'utente deve essere informato sul metodo per spostare il focus.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 2.1.4 Tasti di scelta rapida</h4>
-
      <p>Se nel contenuto viene implementata una scorciatoia da tastiera utilizzando sole lettere (maiuscole e minuscole), segni di punteggiatura, numeri o simboli, allora è vera almeno una delle seguenti condizioni: disattivazione, rimappatura, attivazione solo al focus.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
 
@@ -190,16 +193,18 @@ Rendere disponibili tutte le funzionalità tramite tastiera.
 Fornire agli utenti tempo sufficiente per leggere e utilizzare i contenuti.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 2.2.1 Regolazione tempi di esecuzione</h4>
-
      <p>Per ogni temporizzazione presente nel contenuto, è soddisfatto almeno uno dei seguenti casi: spegnimento, regolazione, estensione, eccezione per eventi in tempo reale, eccezione di essenzialità, eccezione delle 20 ore.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 2.2.2 Pausa, stop, nascondi</h4>
-
      <p>Nei casi di animazioni, lampeggiamenti, scorrimenti o auto-aggiornamenti di informazioni, sono soddisfatti tutti i seguenti punti: spostamento, lampeggiamento, scorrimento, auto-aggiornamento.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
 
@@ -208,10 +213,11 @@ Fornire agli utenti tempo sufficiente per leggere e utilizzare i contenuti.
 Non sviluppare contenuti con tecniche che sia noto causino attacchi epilettici o reazioni fisiche.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 2.3.1 Tre lampeggiamenti o inferiore alla soglia</h4>
-
      <p>Le pagine Web non contengono nulla che lampeggi per più di tre volte in un secondo oppure il lampeggiamento è al di sotto della soglia generale di lampeggiamento e della soglia del lampeggiamento rosso.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
 
@@ -220,28 +226,43 @@ Non sviluppare contenuti con tecniche che sia noto causino attacchi epilettici o
 Fornire delle funzionalità di supporto all'utente per navigare, trovare contenuti e determinare la propria posizione.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 2.4.1 Salto di blocchi</h4>
-
      <p>È disponibile un meccanismo per saltare i blocchi di contenuto che si ripetono su più pagine Web.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<br/>
+
+<strong>SINTOMO</strong>  
+Persone con disabilità fanno fatica a raggiungere il contenuto principale velocemente e facilmente.
+
+<strong>CAUSA</strong>  
+Il sito è privo di link diretti al contenuto principale.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Aggiungere un link all'inizio della pagina per arrivare al contenuto principale.
+
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 2.4.2 Titolazione della pagina</h4>
-
      <p>Le pagine Web hanno titoli che ne descrivono l'argomento o la finalità.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 2.4.3 Ordine del focus</h4>
-
      <p>Se una pagina Web può essere navigata in modo sequenziale e le sequenze di navigazione influiscono sul suo significato e sul suo funzionamento, gli oggetti che possono ricevere il focus lo ricevono in un ordine che ne conserva il senso e l'operatività.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 2.4.4 Scopo del collegamento (nel contesto)</h4>
-
      <p>Lo scopo di ogni collegamento può essere determinato dal solo testo del collegamento oppure dal testo del collegamento insieme a dei contenuti contestuali che possono essere determinati programmaticamente, salvo il caso in cui lo scopo del collegamento potrebbe risultare ambiguo per la gli utenti in generale.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
 
@@ -250,28 +271,32 @@ Fornire delle funzionalità di supporto all'utente per navigare, trovare contenu
 Rendere più facile agli utenti l'utilizzo di funzionalità attraverso input diversi dalla tastiera.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 2.5.1 Movimenti del puntatore</h4>
-
      <p>Tutte le funzionalità che per il loro utilizzo richiedono gesti multi punto o basati su percorsi possono essere gestite con un puntatore singolo senza gesti basati sul percorso, a meno che questi non siano essenziali.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 2.5.2 Cancellazione delle azioni del puntatore</h4>
-
      <p>Per le funzionalità che possono essere gestite utilizzando un singolo puntatore, si verifica almeno una delle seguenti condizioni: nessun evento di selezione (down-event), interruzione o annullamento, inversione, essenziale.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 2.5.3 Etichetta nel nome</h4>
-
      <p>Per i componenti dell'interfaccia utente con etichette che includono testo o immagini di testo, il nome contiene il testo che viene presentato visivamente.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 2.5.4 Azionamento da movimento</h4>
-
      <p>Le funzionalità che possono essere azionate dal movimento del dispositivo o dell'utente possono anche essere attivate dai componenti dell'interfaccia utente e la risposta al movimento può essere disabilitata per impedire l'attivazione accidentale, tranne quando: interfaccia supportata, essenziale.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
 

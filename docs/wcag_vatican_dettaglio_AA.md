@@ -56,7 +56,6 @@ Creare contenuti che possano essere rappresentati in modalità differenti (ad es
 
 <div class="success-criteria">
      <h4>Criterio di successo 1.3.5 Identificare lo scopo degli input</h4>
-
      <p>Lo scopo di ciascun campo di input per le informazioni sull'utente può essere determinato programmaticamente quando: il campo di input ha uno scopo noto, identificato nella sezione scopo dell'input per i componenti dell'interfaccia utente; e il contenuto è implementato utilizzando tecnologie che supportino l'identificazione del significato atteso dei dati inseriti del modulo.</p>
 </div>
 
@@ -68,21 +67,33 @@ Rendere più semplice agli utenti la visione e l'ascolto dei contenuti, separand
 
 <div class="success-criteria">
      <h4>Criterio di successo 1.4.3 Contrasto (minimo)</h4>
-
      <p>La rappresentazione visiva del testo e di immagini contenenti testo ha un rapporto di contrasto di almeno 4.5:1, fatta eccezione per i seguenti casi: testo grande, testo non essenziale, logotipi.</p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 1.4.4 Ridimensionamento del testo</h4>
-
      <p>Il testo, ad eccezione dei sottotitoli e delle immagini contenenti testo, può essere ridimensionato fino al 200 percento senza l'ausilio di tecnologie assistive e senza perdita di contenuto e funzionalità.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.4.5 Immagini di testo</h4>
-
      <p>Se le tecnologie utilizzate consentono la rappresentazione visiva dei contenuti, per veicolare informazioni è usato il testo, e non le immagini di testo, ad eccezione dei seguenti casi: personalizzabile, essenziale.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
+
+<br/>
+
+<strong>SINTOMO</strong>  
+Nella pagina "Bollettino Stampa" utenti con deficit visivo potrebbero non leggere tutto il contenuto della pagina.
+
+<strong>CAUSA</strong>  
+Al centro della pagina è presente un immagine contenente del testo che non si può ridimensionare e che non è leggibile dalle tecnologie assistive. L'attributo "alt" inserito nel link dell'immagine non è sufficiente per descrivere l'intera immagine.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Utilizzare un'immagine di testo e migliorare la descrizione dell'immagine.
 
 <div class="success-criteria">
      <h4>Criterio di successo 1.4.10 Ricalcolo del flusso</h4>
@@ -129,16 +140,29 @@ Fornire delle funzionalità di supporto all'utente per navigare, trovare contenu
      <p>Rendere disponibili più modalità per identificare una pagina Web all'interno di un insieme di pagine Web, salvo il caso in cui una pagina Web sia il risultato – o una fase – di un'azione.</p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 2.4.6 Intestazioni ed etichette</h4>
-
      <p>Utilizzare intestazioni ed etichette per descrivere argomenti o finalità.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
-<div class="success-criteria">
-     <h4>Criterio di successo 2.4.7 Focus visibile</h4>
+<br/>
 
+<strong>SINTOMO</strong>  
+La navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
+
+<strong>CAUSA</strong>  
+All'interno della pagina non esiste una struttura corretta di instestazioni e non vengono utilizzate etichette per i forms.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Utilizzare correttamente le instestazioni e le etichette.
+
+<div class="success-criteria success-criteria-success">
+     <h4>Criterio di successo 2.4.7 Focus visibile</h4>
      <p>Qualsiasi interfaccia utente utilizzabile tramite tastiera ha una modalità operativa in cui è visibile l'indicatore del focus.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
 
