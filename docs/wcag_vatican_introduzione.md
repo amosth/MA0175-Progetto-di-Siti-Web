@@ -81,9 +81,8 @@ Le pagine sono state analizzate tramite tre PC portatili con le seguenti caratte
 
 Gli strumenti utilizzati per aiutarsi nell’analisi sono stati:
 
-- WAVE: tool per controllare l’accessibilità delle pagine web (estensione per Google Chrome)
-- Juicy Studio: tool per analizzare il rapporto di contrasto fra due colori, per la linea guida 1.4.3
-- Assistente vocale di Windows 8.1: lettore di schermo
+- WAVE: tool per controllare l’accessibilità delle pagine web (estensione per Google Chrome e Mozilla Firefox)
+- Assistente vocale di Windows 10 "Narrator"
 
 ## Perimetro dell'indagine
 

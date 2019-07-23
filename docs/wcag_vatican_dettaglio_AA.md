@@ -27,16 +27,18 @@ Le informazioni e i componenti dell'interfaccia utente devono essere presentati 
 Fornire alternative per i media temporizzati.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 1.2.4 Sottotitoli (in tempo reale)</h4>
-
      <p>Per tutti i contenuti audio in tempo reale sotto forma di media sincronizzati sono forniti sottotitoli.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 1.2.5 Audiodescrizione (preregistrata)</h4>
-
      <p>Per tutti i contenuti video preregistrati sotto forma di media sincronizzati è fornita una audiodescrizione.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
 
@@ -45,10 +47,11 @@ Fornire alternative per i media temporizzati.
 Creare contenuti che possano essere rappresentati in modalità differenti (ad esempio, con layout più semplici), senza perdere informazioni o struttura.
 
 
-<div class="success-criteria">
+<div class="success-criteria  success-criteria-success">
      <h4>Criterio di successo 1.3.4 Orientamento</h4>
-
      <p>La visualizzazione e il funzionamento di un contenuto non dipendono dall'orientamento dello schermo, ad esempio verticale o orizzontale, a meno che questo non sia essenziale.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
 <div class="success-criteria">

@@ -21,94 +21,150 @@ date: 2019-07-10
 
 Le informazioni e i componenti dell'interfaccia utente devono essere presentati agli utenti in modi in cui essi possano percepirli.
 
-
 ### Linea guida 1.1 Alternative testuali
 
 Fornire alternative testuali per qualsiasi contenuto non di testo in modo che questo possa essere trasformato in altre forme fruibili secondo le necessità degli utenti come stampa a caratteri ingranditi, Braille, sintesi vocale, simboli o un linguaggio più semplice.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.1.1 Contenuti non testuali</h4>
 
      <p>Tutti i contenuti non testuali presentati all'utente hanno un'alternativa testuale equivalente che serve allo stesso scopo, ad eccezione dei seguenti casi: controlli, input, media temporizzati, test, esperienze sensoriali, CAPTCHA, decorazioni, formattazioni, contenuti invisibili.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
+<br/>
+
+<strong>SINTOMO</strong>  
+Utenti che usano tecnologie assistive per la navigazione della pagina potrebbero non essere in grado di interpretare i vari form di ricerca "Archivio dei Bollettini".
+<div class="nice-border">
+![Form Archivio Bollettini](img/form_archivio_bollettini.jpg)
+</div>
+
+<strong>CAUSA</strong>  
+Nella pagina "Bollettino Stampa" i form sono impaginati tramite una tabella. Visivamente si capisce che questi sono form diversi grazie all'impaginazione, ma sematicamente non c'è alcun legame tra etichette ed input.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Utilizzare delle etichette per identificare gli input e il loro scopo.  
+Esempio:  
+
+```html
+<form>
+    <label for="select">Ricerca per data:</label>
+    <select type="select" name="select">
+        <option value="/content/salastampa/it/bollettino/pubblico/2019/07.html">mese corrente</option>
+        <option value="/content/salastampa/it/bollettino/pubblico/2019.html">2019</option>
+        <option value="/content/salastampa/it/bollettino/pubblico/2019.html">2018</option>
+        ...
+    </select>
+    <input type="button" value="Ricerca" onclick="document.location.href = jQuery('#time').val();">
+</form>
+```
 
 ### Linea guida 1.2 Media temporizzati
 
 Fornire alternative per i media temporizzati.
 
-
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 1.2.1 Solo audio e solo video (preregistrati)</h4>
 
      <p>Per i tipi di media preregistrati di solo audio e di solo video, a meno che questi non costituiscano un tipo di media alternativo ad un contenuto testuale chiaramente etichettato come tale, sono soddisfatti i seguenti punti: solo audio preregistrato, solo video preregistrato.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 1.2.2 Sottotitoli (preregistrati)</h4>
 
      <p>Per tutti i contenuti audio preregistrati presenti in tipi di media sincronizzati sono forniti sottotitoli, eccetto quando tali contenuti sono alternativi ad un contenuto testuale e sono chiaramente etichettati come tali.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)</h4>
 
      <p>Per i media sincronizzati è fornita un'alternativa ai media temporizzati, oppure una audiodescrizione dei contenuti video preregistrati, eccetto quando il contenuto audio o video è alternativo ad un contenuto testuale ed è chiaramente etichettato come tale.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
-
 
 ### Linea guida 1.3 Adattabile
 
 Creare contenuti che possano essere rappresentati in modalità differenti (ad esempio, con layout più semplici), senza perdere informazioni o struttura.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.3.1 Informazioni e correlazioni</h4>
 
      <p>Le informazioni, la struttura e le correlazioni trasmesse dalla presentazione possono essere determinate programmaticamente oppure sono disponibili tramite testo.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<br/>
+
+<strong>SINTOMO</strong>  
+Nella pagina "Bollettino Stampa" la navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
+
+<strong>CAUSA</strong>  
+I livelli di heading non vengono rispettati. Non è presente un ```<h1>``` all'interno del documento, solo una intestazione di livello 3 ```<h3>```.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Impostare una struttura corretta per le intestazioni.
+
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.3.2 Sequenza significativa</h4>
 
      <p>Quando la sequenza in cui il contenuto è presentato influisce sul suo significato, la corretta sequenza di lettura può essere determinata programmaticamente.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<br/>
+
+<strong>SINTOMO</strong>  
+Nella pagina "Bollettino Stampa" la navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
+
+<strong>CAUSA</strong>  
+Sia navigando da tastiera che utilizzando il lettore di schermo non è possibile leggere le "etichette" dei vari form di ricerca.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Eliminare il layout a tabella e utilizzare correttamente ```<label>``` per i form.
+
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 1.3.3 Caratteristiche sensoriali</h4>
-
      <p>Le istruzioni fornite per comprendere ed operare sui contenuti non si basano unicamente su caratteristiche sensoriali dei componenti quali forma, colore, dimensione, ubicazione visiva, orientamento o suono.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
-
 
 ### Linea guida 1.4 Distinguibile
 
 Rendere più semplice agli utenti la visione e l'ascolto dei contenuti, separando i contenuti in primo piano dallo sfondo.
 
-
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 1.4.1 Uso del colore</h4>
-
      <p>Il colore non deve essere utilizzato come unica modalità visiva per rappresentare informazioni, indicare azioni, richiedere risposte o come elemento di distinzione visiva.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 1.4.2 Controllo del sonoro</h4>
-
      <p>Se un contenuto audio all'interno di una pagina Web è eseguito automaticamente per più di tre secondi o si fornisce una funzionalità per metterlo in pausa o interromperlo, oppure si fornisce una modalità per il controllo dell'audio che sia indipendente dal controllo predefinito del sistema.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
-
 
 ## 2. Utilizzabile
 
 I componenti e la navigazione dell'interfaccia utente devono essere utilizzabili.
 
-
 ### Linea guida 2.1 Accessibile da tastiera
 
 Rendere disponibili tutte le funzionalità tramite tastiera.
-
 
 <div class="success-criteria">
      <h4>Criterio di successo 2.1.1 Tastiera</h4>
