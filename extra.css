@@ -1,6 +1,15 @@
-a, a:visited {
-    color: #2980B9;
+/* Ho messo black per vedere se aumenta il contrasto ma nulla */
+body {
+    color: black;
+}
+
+a {
+    color: #206A9A;
     text-decoration: none;
+}
+a:visited {
+    color: #9b0767;
+
 }
 
 a:focus {
@@ -27,7 +36,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-     margin-top: 40px;
+     margin-top: 30px;
      margin-bottom: 4px;
 }
 
@@ -46,4 +55,47 @@ img {
 
 footer {
     color: black;
+}
+
+.nice-border {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px;
+}
+
+code {
+    color: #b31100;
+}
+
+/* BOXES */
+.success-criteria {
+    margin-top: 30px;
+    border-style: solid;
+    border-width: 1px 1px 1px 17px;
+    padding: 15px;
+}
+
+.success-criteria h4 {
+    margin-top: 0px;
+}
+
+.success-criteria hr {
+    border-top: 1px solid #404040;
+}
+
+.success-criteria-danger {
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.09);
+}
+
+.success-criteria-warning {
+    border-color: yellow;
+    background-color: rgba(255, 255, 0, 0.09);
+}
+
+.success-criteria-success {
+    border-color: green;
+    background-color: rgba(0, 255, 0, 0.09);
 }
