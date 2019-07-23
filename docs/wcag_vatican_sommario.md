@@ -10,7 +10,8 @@ date: 2019-07-10
 
 # Sommario risultati WCAG 2.1 del sito "vatican.va"
 
-[Salta indice]
+<br>
+[[Salta indice](#dichiarazione-di-conformita)]
 
 ## Indice
 

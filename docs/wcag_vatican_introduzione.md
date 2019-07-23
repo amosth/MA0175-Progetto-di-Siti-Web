@@ -12,7 +12,8 @@ date: 2019-07-10
 
 Valutazione di conformità rispetto alle linee guida WCAG 2.1, livello di conformità AA, del sito della Città del Vaticano "vatican.va".
 
-[Salta indice] (link da fare)
+<br>
+[[Salta indice](#informazioni-generali)]
 
 ## Indice
 
