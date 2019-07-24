@@ -172,16 +172,7 @@
           <div role="main">
             <div class="section">
               
-                <hr />
-<p>title: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Dettaglio dei risultati: Livello AA
-summary: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Dettaglio dei risultati: Livello AA.
-authors:
-    - Enrico Basso
-    - Amos Cappellaro
-    - Luca Dal Poz
-date: 2019-07-10</p>
-<hr />
-<h1 id="dettaglio-risultati-conformita-wcag-21-livello-aa">Dettaglio risultati: conformità WCAG 2.1 livello AA<a class="headerlink" href="#dettaglio-risultati-conformita-wcag-21-livello-aa" title="Permanent link">#</a></h1>
+                <h1 id="dettaglio-risultati-conformita-wcag-21-livello-aa">Dettaglio risultati: conformità WCAG 2.1 livello AA<a class="headerlink" href="#dettaglio-risultati-conformita-wcag-21-livello-aa" title="Permanent link">#</a></h1>
 <p><br>
 [<a href="#1-percepibile">Salta indice</a>]</p>
 <h2 id="indice">Indice<a class="headerlink" href="#indice" title="Permanent link">#</a></h2>
@@ -247,11 +238,23 @@ date: 2019-07-10</p>
 
 <h3 id="linea-guida-14-distinguibile">Linea guida 1.4 Distinguibile<a class="headerlink" href="#linea-guida-14-distinguibile" title="Permanent link">#</a></h3>
 <p>Rendere più semplice agli utenti la visione e l'ascolto dei contenuti, separando i contenuti in primo piano dallo sfondo.</p>
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.4.3 Contrasto (minimo)</h4>
      <p>La rappresentazione visiva del testo e di immagini contenenti testo ha un rapporto di contrasto di almeno 4.5:1, fatta eccezione per i seguenti casi: testo grande, testo non essenziale, logotipi.</p>
+     <br/>
+     <strong>Esito: NEGATIVO</storng>
 </div>
 
+<p><br/></p>
+<p><strong>SINTOMO</strong><br />
+Nella pagina "Home" utenti con difficoltà visive, potrebbero riuscire a distinguere correttamente il testo dallo sfondo.<br />
+<div class="nice-border">
+<img alt="Contrasto minimo home" src="../img/contrasto-minimo-home.png" />
+</div></p>
+<p><strong>CAUSA</strong><br />
+Differenza di contrasto testo-sfondo non sufficiente.</p>
+<p><strong>POSSIBILE SOLUZIONE</strong><br />
+Ricontrollare i rapporti di constrasto.</p>
 <div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 1.4.4 Ridimensionamento del testo</h4>
      <p>Il testo, ad eccezione dei sottotitoli e delle immagini contenenti testo, può essere ridimensionato fino al 200 percento senza l'ausilio di tecnologie assistive e senza perdita di contenuto e funzionalità.</p>
@@ -325,13 +328,35 @@ La navigazione può risultare difficile per chi utilizza la tastiera e i lettori
 All'interno della pagina non esiste una struttura corretta di instestazioni e non vengono utilizzate etichette per i forms.</p>
 <p><strong>POSSIBILE SOLUZIONE</strong><br />
 Utilizzare correttamente le intestazioni e le etichette.</p>
-<div class="success-criteria success-criteria-success">
+<p><br/></p>
+<p><strong>SINTOMO</strong><br />
+La navigazione nella pagina "Home" può risultare difficile per chi utilizza la tastiera e i lettori di schermo.</p>
+<p><strong>CAUSA</strong><br />
+Assenza totale di etichette.</p>
+<p><strong>POSSIBILE SOLUZIONE</strong><br />
+Popolare gli elementi della pagina con etichette che li descrivano.<br />
+<em>Esempio:</em></p>
+<pre><code class="html">&lt;label&gt;Descrizione elemento&lt;/label&gt;
+</code></pre>
+
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 2.4.7 Focus visibile</h4>
      <p>Qualsiasi interfaccia utente utilizzabile tramite tastiera ha una modalità operativa in cui è visibile l'indicatore del focus.</p>
      <br>
-     <p><strong>Esito: POSITIVO</strong></p>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
+<p><br/></p>
+<p><strong>SINTOMO</strong><br />
+Nella pagina "Home" gli utenti che spostano il focus tramite tastiera non sono sempre in grado di riconoscere dove esso sia.<br />
+<div class="nice-border">
+<img alt="Focus non visibile" src="../img/focus-non-visibile.png" /><br />
+<img alt="Focus non visibile" src="../img/focus-non-visibile2.png" />
+</div></p>
+<p><strong>CAUSA</strong><br />
+Mancanza di indicatore visivo del focus</p>
+<p><strong>POSSIBILE SOLUZIONE</strong><br />
+Assicurarsi che un indicatore del focus ben visibile sia sempre presente.</p>
 <h2 id="3-comprensibile">3. Comprensibile<a class="headerlink" href="#3-comprensibile" title="Permanent link">#</a></h2>
 <p>Le informazioni e le operazioni dell'interfaccia utente devono essere comprensibili.</p>
 <h3 id="linea-guida-31-leggibile">Linea guida 3.1 Leggibile<a class="headerlink" href="#linea-guida-31-leggibile" title="Permanent link">#</a></h3>
