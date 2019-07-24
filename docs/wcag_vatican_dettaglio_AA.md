@@ -1,6 +1,6 @@
 ---
-title: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Dettaglio dei risultati: Livello AA
-summary: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Dettaglio dei risultati: Livello AA.
+title: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Dettaglio dei risultati - Livello AA
+summary: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Dettaglio dei risultati - Livello AA.
 authors:
     - Enrico Basso
     - Amos Cappellaro
@@ -65,10 +65,27 @@ Creare contenuti che possano essere rappresentati in modalità differenti (ad es
 Rendere più semplice agli utenti la visione e l'ascolto dei contenuti, separando i contenuti in primo piano dallo sfondo.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.4.3 Contrasto (minimo)</h4>
      <p>La rappresentazione visiva del testo e di immagini contenenti testo ha un rapporto di contrasto di almeno 4.5:1, fatta eccezione per i seguenti casi: testo grande, testo non essenziale, logotipi.</p>
+     <br/>
+     <strong>Esito: NEGATIVO</storng>
 </div>
+
+<br/>
+
+<strong>SINTOMO</strong>  
+Nella pagina "Home" utenti con difficoltà visive, potrebbero riuscire a distinguere correttamente il testo dallo sfondo.  
+<div class="nice-border">
+![Contrasto minimo home](img/contrasto-minimo-home.png)
+</div>
+
+<strong>CAUSA</strong>  
+Differenza di contrasto testo-sfondo non sufficiente.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Ricontrollare i rapporti di constrasto.
+
 
 <div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 1.4.4 Ridimensionamento del testo</h4>
@@ -158,12 +175,43 @@ All'interno della pagina non esiste una struttura corretta di instestazioni e no
 <strong>POSSIBILE SOLUZIONE</strong>  
 Utilizzare correttamente le intestazioni e le etichette.
 
-<div class="success-criteria success-criteria-success">
+<br/>
+
+<strong>SINTOMO</strong>  
+La navigazione nella pagina "Home" può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
+
+<strong>CAUSA</strong>  
+Assenza totale di etichette.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Popolare gli elementi della pagina con etichette che li descrivano.  
+*Esempio:*
+```html
+<label>Descrizione elemento</label>
+```
+
+
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 2.4.7 Focus visibile</h4>
      <p>Qualsiasi interfaccia utente utilizzabile tramite tastiera ha una modalità operativa in cui è visibile l'indicatore del focus.</p>
      <br>
-     <p><strong>Esito: POSITIVO</strong></p>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
+
+<br/>
+
+<strong>SINTOMO</strong>  
+Nella pagina "Home" gli utenti che spostano il focus tramite tastiera non sono sempre in grado di riconoscere dove esso sia.  
+<div class="nice-border">
+![Focus non visibile](img/focus-non-visibile.png)  
+![Focus non visibile](img/focus-non-visibile2.png)
+</div>
+
+<strong>CAUSA</strong>  
+Mancanza di indicatore visivo del focus
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Assicurarsi che un indicatore del focus ben visibile sia sempre presente.
 
 
 ## 3. Comprensibile
