@@ -114,6 +114,17 @@ I livelli di heading non vengono rispettati. Non è presente un ```<h1>``` all'i
 <strong>POSSIBILE SOLUZIONE</strong>  
 Impostare una struttura corretta per le intestazioni.
 
+<br/>
+
+<strong>SINTOMO - luca</strong>  
+Nella pagina "Home" la navigazione può risultare confusionaria per chi utilizza tecnologie assistive come lettori di schermo.
+
+<strong>CAUSA</strong>  
+I livelli di heading sono mal utilizzati: tag ```<h1>``` riutilizzato più volte nella stessa pagina.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Impostare una struttura corretta per le intestazioni.
+
 <div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.3.2 Sequenza significativa</h4>
 
@@ -133,12 +144,27 @@ Sia navigando da tastiera che utilizzando il lettore di schermo non è possibile
 <strong>POSSIBILE SOLUZIONE</strong>  
 Eliminare il layout a tabella e utilizzare correttamente ```<label>``` per i form.
 
-<div class="success-criteria success-criteria-success">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.3.3 Caratteristiche sensoriali</h4>
      <p>Le istruzioni fornite per comprendere ed operare sui contenuti non si basano unicamente su caratteristiche sensoriali dei componenti quali forma, colore, dimensione, ubicazione visiva, orientamento o suono.</p>
      <br>
-     <p><strong>Esito: POSITIVO</strong></p>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
+
+<br/>
+
+<strong>SINTOMO - luca</strong>  
+Utenti non abituati ad una regolare navigazione web potrebbero non arrivare ad intendere come fruire di tale contenuto<div class="nice-border">
+![Sezione Pontefici](img/sezione-pontefici.png)
+</div>
+
+<strong>CAUSA</strong>  
+Sezione della pagina fruibile scrollando orizzontalmente, per vedere l’intero contenuto che è in parte nascosto.
+
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Segnalare all'utente una possibile interazione con un contenuto parzialmente nascosto che è fruibile tramite spostamento orizzontale (rotella del mouse, barra di spostamento della sezione, ...)
+
 
 ### Linea guida 1.4 Distinguibile
 
@@ -200,12 +226,26 @@ Fornire agli utenti tempo sufficiente per leggere e utilizzare i contenuti.
      <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
-<div class="success-criteria success-criteria-warning">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 2.2.2 Pausa, stop, nascondi</h4>
      <p>Nei casi di animazioni, lampeggiamenti, scorrimenti o auto-aggiornamenti di informazioni, sono soddisfatti tutti i seguenti punti: spostamento, lampeggiamento, scorrimento, auto-aggiornamento.</p>
      <br>
-     <p><strong>Esito: NON VALUTABILE</strong></p>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
+
+<br/>
+
+<strong>SINTOMO - luca</strong>  
+Utenti che non utilizzano un mouse non sono in grado di posizionare il puntatore sopra il testo a scorrimento per fermarlo temporaneamente.
+<div class="nice-border">
+![Testo a scorrimento](img/testo-a-scorrimento.png)
+</div>
+
+<strong>CAUSA</strong>  
+Mancanza di meccaniscmi alternativi per fermare il testo a scorrimento oltre all'hover del puntatore del mouse.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Assicurarsi che venga implementato un meccanismo da tastiera (o altri dispositivi input) per permettere di fermare lo scorrimento del testo, oltre che con il posizionamento del mouse.
 
 
 ### Linea guida 2.3 Convulsioni e reazioni fisiche
@@ -352,10 +392,28 @@ Creare pagine Web che abbiano aspetto e funzionamento prevedibili.
 Aiutare gli utenti a evitare gli errori e agevolarli nella loro correzione.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 3.3.1 Identificazione di errori</h4>
      <p>Se viene rilevato automaticamente un errore di inserimento, l'elemento in errore viene identificato e l'errore descritto tramite testo.</p>
 </div>
+
+<br/>
+
+<strong>SINTOMO - luca</strong>  
+Errori di battitura da tastiera nell’inserimento di alcuni input non vengono segnalati.
+<div class="nice-border">
+    ![Errori di input 1](img/errori-input-1.png)
+</div>
+<div class="nice-border">
+    ![Errori di input 2](img/errori-input-2.png)
+</div>
+
+<strong>CAUSA</strong>  
+Mancanza di meccanismo di controllo dell’input e generazione della segnalazione all’utente.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Implementazione di meccanismo per la rilevazione di errori e la notifica agli utenti degli stessi.
+
 
 <div class="success-criteria">
      <h4>Criterio di successo 3.3.2 Etichette o istruzioni</h4>
