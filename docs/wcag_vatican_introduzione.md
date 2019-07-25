@@ -86,15 +86,15 @@ Gli strumenti utilizzati per aiutarsi nell’analisi sono stati:
 
 ## Perimetro dell'indagine
 
-Spiegare perchè abbiamo scelto quelle tre pagine.
+Dopo un'attenta navigazione nel sito, al fine di analizzarne il modello concettuale, abbiamo concluso come più appropriate le pagine *Home*, *Bollettino* e *Calendario* da sottoporre al test di conformità WCAG 2.1. Non sottoponiamo al test, invece, altre pagine che - seppur rilevanti per l'utenza del sito in analisi - sono raggiungibili dal suddetto sito tramite link, ma appartenenti a siti esterni.  
 
-Screenshots delle pagine (scattate il giorno 22 luglio 2019):
+Di seguito gli screenshot delle pagine (scattate il giorno 22 luglio 2019) sottoposte al test di conformità WCAG 2.1:  
 
-- Pagina "Home"
-![Pagina home](/img/home.png)
+- Pagina *Home*
+![Pagina home](img/home.png)
 
-- Pagina "Bollettino"
-![Pagina bollettino](/img/bollettino.png)
+- Pagina *Bollettino*
+![Pagina bollettino](img/bollettino.png)
 
-- Pagina "Calendario"
-![Pagina calendario](/img/calendario.png)
+- Pagina *Calendario*
+![Pagina calendario](img/calendario.png)
