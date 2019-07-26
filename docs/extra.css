@@ -69,6 +69,50 @@ code {
     color: #b31100;
 }
 
+/* TABLES */
+table.docutils thead th{
+    text-align: center;
+}
+
+td.result{
+    text-align: center !important;
+}
+
+.rst-content table.docutils th,
+.rst-content table.docutils td{
+    padding: 10px 6px !important;
+}
+
+/*                  RED / NEGATIVE               */
+table.docutils tbody tr.danger td{
+    background-color: #FBBBB6 !important;
+}
+
+table.docutils tbody tr.danger td.result {
+    border-left-width: 17px !important;
+    border-left-color: red !important;
+}
+
+/*                  GREEN / POSITIVE               */
+table.docutils tbody tr.success td{
+    background-color: #B8E0B9 !important;
+}
+
+table.docutils tbody tr.success td.result {
+    border-left-width: 17px !important;
+    border-left-color: green !important;
+}
+
+/*                  YELLOW / NONE               */
+table.docutils tbody tr.warning td{
+    background-color: #FFF599 !important;
+}
+
+table.docutils tbody tr.warning td.result {
+    border-left-width: 17px !important;
+    border-left-color: yellow !important;
+}
+
 /* BOXES */
 .success-criteria {
     margin-top: 30px;
