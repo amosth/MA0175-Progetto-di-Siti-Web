@@ -29,7 +29,7 @@ Descrizione dettagliata singoli casi:
 ## Caso d'uso 1
 
 **Scenario:**
-"Ti sei perso il telegiornale di ieri sera in cui hanno trasmesso un servizio di tuo particolare interesse, e vuoi recuperarlo".
+"Ti sei perso il telegiornale di ieri sera in cui hanno trasmesso un servizio di tuo particolare interesse e vuoi recuperarlo".
 
 **Scopo:**
 Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.
