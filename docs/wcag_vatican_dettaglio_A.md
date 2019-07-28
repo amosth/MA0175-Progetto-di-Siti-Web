@@ -8,7 +8,7 @@ authors:
 date: 2019-07-10
 ---
 
-# Dettaglio risultati: conformità WCAG 2.1 livello A
+# Risultati in dettaglio: conformità WCAG 2.1 livello A
 
 <br>
 [[Salta indice](#1-percepibile)]

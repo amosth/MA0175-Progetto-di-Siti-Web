@@ -9,10 +9,10 @@ nav:
         - Tabelle riassuntive risultati: wcag_vatican_tabelle_risultati.md
     - Rapporto test con utenti "sedefvg.rai.it":
         - Introduzione: ut_sedefvg_introduzione.md
-        - Perimetro indagine: ut_sedefvg_perimetro.md
         - Metodologia: ut_sedefvg_metodologia.md
-        - Sommario risultati: ut_sedefvg_sommario.md
+        - Perimetro indagine: ut_sedefvg_perimetro.md
         - Risultati in dettaglio: ut_sedefvg_dettaglio.md
+        - Tabelle riassuntive risultati: ut_sedefvg_tabelle_risultati.md
     - Autori: AUTHORS.md
 theme: readthedocs
 markdown_extensions:

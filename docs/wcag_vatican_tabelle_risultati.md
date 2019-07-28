@@ -8,11 +8,15 @@ authors:
 date: 2019-07-10
 ---
 
+# Tabelle riassuntive dei risultati
+
+## Tabella riassuntiva: conformità WCAG 2.1 livello A
+
 <table class="docutils">
     <thead>
         <tr>
             <th>ESITO</th>
-            <th>LINEE GUIDA</th>
+            <th>CRITERIO DI SUCCESSO</th>
         </tr>
     </thead>
     <tbody>
@@ -105,6 +109,71 @@ date: 2019-07-10
         </tr>
         <tr class="warning">
             <td>2.5.4 Azionamento da movimento</td>
+        </tr>
+    </tbody>
+</table>
+
+
+## Tabella riassuntiva: conformità WCAG 2.1 livello AA
+
+<table class="docutils">
+    <thead>
+        <tr>
+            <th>ESITO</th>
+            <th>CRITERIO DI SUCCESSO</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="danger">
+            <td rowspan="7" class="result">NEGATIVO</td>
+            <td>1.4.3 Contrasto (minimo)</td>
+        </tr>
+        <tr class="danger">
+            <td>1.4.5 Immagini di testo</td>
+        </tr>
+        <tr class="danger">
+            <td>1.4.10 Ricalcolo del flusso</td>
+        </tr>
+        <tr class="danger">
+            <td>1.4.11 Contrasto in contenuti non testuali</td>
+        </tr>
+        <tr class="danger">
+            <td>2.4.6 Intestazioni ed etichette</td>
+        </tr>
+        <tr class="danger">
+            <td>2.4.7 Focus visibile</td>
+        </tr>
+        <tr class="danger">
+            <td>3.1.2 Parti in lingua</td>
+        </tr>
+        <tr class="success">
+            <td rowspan="6" class="result">POSITIVO</td>
+            <td>1.3.4 Orientamento</td>
+        </tr>
+        <tr class="success">
+            <td>1.4.4 Ridimensionamento del testo</td>
+        </tr>
+        <tr class="success">
+            <td>1.4.12 Spaziatura del testo</td>
+        </tr>
+        <tr class="success">
+            <td>1.4.13 Contenuto con Hover o Focus</td>
+        </tr>
+        <tr class="success">
+            <td>3.2.3 Navigazione coerente</td>
+        </tr>
+        <tr class="success">
+            <td>3.2.4 Identificazione coerente</td>
+        </tr>
+        <tr class="warning">
+            <td rowspan="3" class="result">NON VALUTABILE</td>
+            <td>1.2.4 Sottotitoli (in tempo reale)</td>
+        </tr>
+        <tr class="warning">
+            <td>1.2.5 Audiodescrizione (preregistrata)</td>
+        </tr>
+        <tr class="warning">
+            <td>3.3.4 Prevenzione degli errori (legali, finanziari, dati)</td>
         </tr>
     </tbody>
 </table>

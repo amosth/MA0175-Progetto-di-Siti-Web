@@ -10,9 +10,9 @@ date: 2019-07-10
 
 # Perimetro dell'Indagine
 
-Dopo una completa analisi del sito RAI Friuli Venezia Giulia, sono stati scelti 5 casi d'uso, utili a testare le pagine del sito che sono di maggiore interesse per coloro che lo visitano:  
+Dopo una completa analisi del sito RAI Friuli Venezia Giulia, sono stati identificati 5 casi d'uso, utili a testare le pagine del sito che sono di maggiore interesse per coloro che lo visitano:  
 
-<br/>
+## Casi d'uso
 
 1. Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente;
 2. Trovare l’indirizzo di posta elettronica della Sede Regionale RAI del Friuli Venezia Giulia;
