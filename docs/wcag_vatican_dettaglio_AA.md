@@ -1,6 +1,6 @@
 ---
-title: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Dettaglio dei risultati: Livello AA
-summary: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Dettaglio dei risultati: Livello AA.
+title: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Dettaglio dei risultati - Livello AA
+summary: Rapporto di conformità WCAG 2.1 del sito "La Santa Sede" | Dettaglio dei risultati - Livello AA.
 authors:
     - Enrico Basso
     - Amos Cappellaro
@@ -64,11 +64,45 @@ Creare contenuti che possano essere rappresentati in modalità differenti (ad es
 
 Rendere più semplice agli utenti la visione e l'ascolto dei contenuti, separando i contenuti in primo piano dallo sfondo.
 
-
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.4.3 Contrasto (minimo)</h4>
      <p>La rappresentazione visiva del testo e di immagini contenenti testo ha un rapporto di contrasto di almeno 4.5:1, fatta eccezione per i seguenti casi: testo grande, testo non essenziale, logotipi.</p>
+     <br/>
+     <strong>Esito: NEGATIVO</storng>
 </div>
+
+<br/>
+
+<strong>SINTOMO (Pagina *Home*)</strong>  
+Utenti con difficoltà visive potrebbero non distinguere correttamente il testo dallo sfondo.  
+<div class="nice-border">
+![Contrasto minimo testo-sfondo home](img/contrasto-minimo-home.png)
+</div>
+
+<strong>CAUSA</strong>  
+Differenza di contrasto testo-sfondo non sufficiente (verificato tramite il tool [WAVE](https://wave.webaim.org)).
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Ricontrollare i rapporti di constrasto.
+
+<br/>
+
+<strong>SINTOMO (Pagina *Calendario*)</strong>  
+Utenti con difficoltà visive potrebbero non distinguere correttamente il testo dallo sfondo.  
+<div class="nice-border">
+![Contrasto minimo testo-sfondo calendario](img/contrasto-minimo-calendario.png)
+</div>
+
+<strong>CAUSA</strong>  
+Differenza di contrasto testo-sfondo non sufficiente (verificato tramite il tool [WAVE](https://wave.webaim.org)).
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Ricontrollare i rapporti di constrasto, utilizzare coppie di colori che diano un contrasto più marcato.  
+Esempio:  
+<div class="nice-border">
+![Contrasto minimo testo-sfondo calendario](img/contrasto-minimo-calendario-soluzione.png)
+</div>
+
 
 <div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 1.4.4 Ridimensionamento del testo</h4>
@@ -86,41 +120,78 @@ Rendere più semplice agli utenti la visione e l'ascolto dei contenuti, separand
 
 <br/>
 
-<strong>SINTOMO</strong>  
-Nella pagina "Bollettino Stampa" utenti con deficit visivo potrebbero non leggere tutto il contenuto della pagina.
+<strong>SINTOMO (Pagina *Bollettino stampa*)</strong>  
+Utenti con deficit visivo potrebbero non leggere tutto il contenuto della pagina.
 
 <strong>CAUSA</strong>  
-Al centro della pagina è presente un immagine contenente del testo che non si può ridimensionare e che non è leggibile dalle tecnologie assistive. L'attributo "alt" inserito nel link dell'immagine non è sufficiente per descrivere l'intera immagine.
+Al centro della pagina è presente un'immagine contenente del testo che non si può ridimensionare e che non è leggibile dalle tecnologie assistive. L'attributo "alt" inserito nel link dell'immagine non è sufficiente per descrivere l'intera immagine.
 
 <strong>POSSIBILE SOLUZIONE</strong>  
 Utilizzare un'immagine di testo e migliorare la descrizione dell'immagine.
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.4.10 Ricalcolo del flusso</h4>
 
      <p>Il contenuto può essere ripresentato senza perdita di informazioni o funzionalità e senza richiedere lo scorrimento in due dimensioni per: contenuto a scorrimento verticale con una larghezza equivalente a 320 CSS pixel, contenuto a scorrimento orizzontale ad un'altezza equivalente a 256 CSS pixel. Tranne per le parti del contenuto che richiedono layout bidimensionale per l'utilizzo o per comprenderne il senso.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<br/>
+
+<strong>SINTOMO (Pagina *Home*)</strong>  
+Utenti con deficit visivo potrebbero non riuscire a leggere tutto il contenuto della pagina.
+
+<strong>CAUSA</strong>  
+Avendo una viewport di larghezza 1280 CSS pixel ed altezza 1024 CSS pixel, e zoomando la pagina al 400%, è necessario lo scorrimento in due dimensioni per poter visualizzare tutto il contenuto della pagina.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Rendere la pagina responsive.
+
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.4.11 Contrasto in contenuti non testuali</h4>
 
      <p>Nella presentazione visiva il rapporto di contrasto è di almeno 3:1 rispetto al colore o ai colori adiacenti per: componenti dell'interfaccia utente, oggetti grafici.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<br/>
+
+<strong>SINTOMO (Pagina *Calendario*)</strong>  
+Utenti con difficoltà visive potrebbero non distinguere correttamente l'oggetto grafico dallo sfondo.
+<div class="nice-border">
+![Contrasto minimo oggetto grafico-sfondo calendario](img/contrasto-minimo-calendario.png)
+</div>
+
+<strong>CAUSA</strong>  
+Differenza di contrasto oggetto grafico-sfondo non sufficiente.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Ricontrollare i rapporti di constrasto, utilizzare coppie di colori che diano un contrasto più marcato.  
+Esempio:  
+<div class="nice-border">
+![Contrasto minimo oggetto grafico-sfondo calendario](img/contrasto-minimo-calendario-grafiche-soluzione.png)
+</div>
+
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 1.4.12 Spaziatura del testo</h4>
 
      <p>Nei contenuti implementati utilizzando linguaggi di markup che supportano le seguenti proprietà di stile per il testo, non si verifica alcuna perdita di contenuto o funzionalità impostando quanto segue senza modificare altre proprietà di stile: altezza della linea (interlinea) di almeno 1,5 volte la dimensione del carattere, spaziatura dopo i paragrafi di almeno 2 volte la dimensione del carattere, spaziatura tra le lettere di almeno 0,12 volte la dimensione del carattere, spaziatura tra le parole di almeno 0,16 volte la dimensione del carattere.
 
      Eccezione: le lingue e le scritture che non utilizzano una o più di queste proprietà nel testo scritto sono conformi quando si può applicare il criterio alle sole proprietà esistenti per quella combinazione di lingua e scrittura.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 1.4.13 Contenuto con Hover o Focus</h4>
 
      <p>Nel caso in cui il passaggio del puntatore del mouse (hover) o il focus della tastiera rendono visibili e nascosti dei contenuti, sono soddisfatte le seguenti condizioni: congedabile, passabile, persistente.
 
      Eccezione: la presentazione visiva del contenuto aggiuntivo è controllata dal programma utente e non viene modificata dall'autore.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
 
@@ -149,21 +220,77 @@ Fornire delle funzionalità di supporto all'utente per navigare, trovare contenu
 
 <br/>
 
-<strong>SINTOMO</strong>  
+<strong>SINTOMO (Pagina *Bollettino stampa*)</strong>  
 La navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
 
 <strong>CAUSA</strong>  
-All'interno della pagina non esiste una struttura corretta di instestazioni e non vengono utilizzate etichette per i forms.
+All'interno della pagina non esiste una struttura corretta di instestazioni e non vengono utilizzate etichette per i form.
 
 <strong>POSSIBILE SOLUZIONE</strong>  
 Utilizzare correttamente le intestazioni e le etichette.
 
-<div class="success-criteria success-criteria-success">
+<br/>
+
+<strong>SINTOMO (Pagina *Home*)</strong>  
+La navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
+
+<strong>CAUSA</strong>  
+Assenza totale di etichette.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Popolare gli elementi della pagina con etichette che li descrivano.  
+*Esempio:*
+```html
+<label>Descrizione elemento</label>
+```
+
+<br/>
+
+<strong>SINTOMO (Pagina *Calendario*)</strong>  
+La navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
+
+<strong>CAUSA</strong>  
+Assenza di etichette.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Popolare gli elementi della pagina con etichette che li descrivano.  
+
+
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 2.4.7 Focus visibile</h4>
      <p>Qualsiasi interfaccia utente utilizzabile tramite tastiera ha una modalità operativa in cui è visibile l'indicatore del focus.</p>
      <br>
-     <p><strong>Esito: POSITIVO</strong></p>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
+
+<br/>
+
+<strong>SINTOMO (Pagina *Home*)</strong>  
+Gli utenti che spostano il focus tramite tastiera non sono sempre in grado di riconoscere dove esso sia.  
+<div class="nice-border">
+![Focus non visibile](img/focus-non-visibile.png)  
+![Focus non visibile](img/focus-non-visibile2.png)
+</div>
+
+<strong>CAUSA</strong>  
+Mancanza di indicatore visivo del focus
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Assicurarsi che un indicatore del focus sia sempre presente e ben visibile.
+
+<br/>
+
+<strong>SINTOMO (Pagina *Calendario*)</strong>  
+Gli utenti che spostano il focus tramite tastiera non sono sempre in grado di riconoscere dove esso sia.  
+<div class="nice-border">
+![Focus non visibile](img/focus-non-visibile3.png)  
+</div>
+
+<strong>CAUSA</strong>  
+Mancanza di indicatore visivo del focus
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Assicurarsi che un indicatore del focus sia sempre presente e ben visibile.
 
 
 ## 3. Comprensibile
@@ -183,11 +310,19 @@ Rendere il testo leggibile e comprensibile.
      <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
-<strong>SINTOMO</strong>  
+<br/>
+
+<strong>SINTOMO (Pagina *Calendario*)</strong>  
+Utenti con difficoltà visive potrebbero non comprendere la finalità di alcune immagini.  
+<div class="nice-border">
+![Focus non visibile](img/alt-in-lingua.png)  
+</div>
 
 <strong>CAUSA</strong>  
+I valori degli attributi ```alt``` di alcune immagini sono scritti in lingua inglese.  
 
 <strong>POSSIBILE SOLUZIONE</strong>  
+Correggere i valori degli attributi ```alt``` e scriverli nella lingua adottata dalla pagina.
 
 
 ### Linea guida 3.2 Prevedibile

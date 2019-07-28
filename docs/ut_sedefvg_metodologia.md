@@ -29,7 +29,7 @@ Descrizione dettagliata singoli casi:
 ## Caso d'uso 1
 
 **Scenario:**
-"Ti sei perso il telegiornale di ieri sera in cui hanno trasmesso un servizio di tuo particolare interesse".
+"Ti sei perso il telegiornale di ieri sera in cui hanno trasmesso un servizio di tuo particolare interesse, e vuoi recuperarlo".
 
 **Scopo:**
 Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.
@@ -46,20 +46,20 @@ Facile
 **Pagina di arrivo:**
 Pagina di visualizzazione del video del TGR selezionato.
 
-**Percorso previsto:**
-- scroll della homepage fino a metà pagina.
-- selezionare link del TGR desiderato.
+**Percorso previsto:**  
+1. scorrere la homepage fino a metà pagina;  
+2. selezionare link del TGR desiderato.
 
 **Criteri di successo:**
-L'utente deve visualizzare il video del TGR.
+L'utente deve visualizzare il TGR trasmesso la sera precedente.
 
 ## Caso d'uso 2
 
 **Scenario:**
-"Vuoi scrivere una email alla redazione del TGR".
+"Vuoi mandare una email alla sede RAI del Friuli Venezia Giulia, ma non conosci l'indirizzo email".
 
 **Scopo:**
-Cercare l’indirizzo della Sede Regionale RAI per il Friuli Venezia Giulia.
+Trovare l’indirizzo di posta elettronica della Sede Regionale RAI del Friuli Venezia Giulia.
 
 **Livello di difficoltà:**
 Facile
@@ -71,21 +71,21 @@ Facile
 [Homepage - sedefvg.rai.it](http://www.sedefvg.rai.it)
 
 **Pagina di arrivo:**
-[La sede](http://www.sedefvg.rai.it/dl/portali/site/articolo/ContentItem-70824807-2bf5-49b5-bc5f-1f0c4ce9fa88.html)
+[La Sede](http://www.sedefvg.rai.it/dl/portali/site/articolo/ContentItem-70824807-2bf5-49b5-bc5f-1f0c4ce9fa88.html)
 
-**Percorso previsto:**
-- selezionare link "LA SEDE" dalla navbar.
+**Percorso previsto:**  
+1. selezionare link "LA SEDE" dalla navbar.
 
 **Criteri di successo:**
-L'utente deve ottenere l'indirizzo email della redazione.
+L'utente deve ottenere l'indirizzo email della Sede Regionale RAI del Friuli Venezia Giulia.
 
 ## Caso d'uso 3
 
 **Scenario:**
-"Stai per andare in settimana bianca a Tarvisio e vuoi ascoltare Rai Radio FVG ma non sai quale sia la frequenza per quella zona".
+"Ti trovi in settimana bianca a Tarvisio e vuoi ascoltare RAI Radio1, ma non sai quale sia la frequenza radio per collegarti da questa zona".
 
 **Scopo:**
-Cercare la frequenza per sintonizzarsi a RAI Radio1 da Tarvisio.
+Trovare la frequenza radio per sintonizzarsi a RAI Radio1 da Tarvisio.
 
 **Livello di difficoltà:**
 Medio
@@ -97,15 +97,71 @@ Medio
 [Homepage - sedefvg.rai.it](http://www.sedefvg.rai.it)
 
 **Pagina di arrivo:**
-[FREQUENZE](http://www.sedefvg.rai.it/dl/portali/site/articolo/ContentItem-7975ffff-e225-4540-9182-23f4517863a0.html)
+[Frequenze](http://www.sedefvg.rai.it/dl/portali/site/articolo/ContentItem-7975ffff-e225-4540-9182-23f4517863a0.html)
 
-**Percorso previsto:**
-- selezionare link "FREQUENZE" dalla navbar.
-- scrollare fino a fine pagina.
+**Percorso previsto:**  
+1. selezionare link "FREQUENZE" dalla navbar;  
+2. scorrere fino a fine pagina.
 
 **Criteri di successo:**
-L'utente deve ottenere l'informazione desiderata'.
+L'utente deve ottenere la frequenza radio per sintonizzarsi a RAI Radio1 da Tarvisio.
 
 ## Caso d'uso 4
 
+**Scenario:**
+"Un amico ti ha consigliato di seguire il programma *Rock Revolution*. Interessato dal consiglio, vuoi ascoltare l'ultima puntata andata in onda".
+
+**Scopo:**
+Ascoltare l’ultima puntata andata in onda del programma *Rock Revolution*.
+
+**Livello di difficoltà:**
+Medio
+
+**Tempo previsto:**
+5 minuti
+
+**Pagina di partenza:**
+[Homepage - sedefvg.rai.it](http://www.sedefvg.rai.it)
+
+**Pagina di arrivo:**
+[Rock Revolution](http://www.rai.it/dl/portali/site/articolo/ContentItem-6f613c1a-7fe2-41ff-831c-fa33ec17b564.html)
+
+**Percorso previsto:**  
+1. selezionare link "I PROGRAMMI" dal menù "Radio";  
+2. selezionare link "R" dalla lista alfabetica;  
+3. selezionare link "ROCK REVOLUTION";  
+4. selezionare link "ASCOLTA E SCARICA LE PUNTATE";  
+5. scorrere la pagina ottenuta fino a metà;  
+6. avviare il player.
+
+**Criteri di successo:**
+L'utente deve ascoltare l’ultima puntata andata in onda del programma *Rock Revolution*.
+
 ## Caso d'uso 5
+
+**Scenario:**
+"Vuoi contattare la persona che conduce il programma radio *Peter Pan - I Bambini Ci Guardano* per coinvolgerla ad un'iniziativa benefica".
+
+**Scopo:**
+Trovare i contatti (telefono ed email) della persona a capo della conduzione del programma radio *Peter Pan - I Bambini Ci Guardano*.
+
+**Livello di difficoltà:**
+Medio
+
+**Tempo previsto:**
+5 minuti
+
+**Pagina di partenza:**
+[Homepage - sedefvg.rai.it](http://www.sedefvg.rai.it)
+
+**Pagina di arrivo:**
+[Peter Pan - I Bambini ci Guardano](http://www.sedefvg.rai.it/dl/portali/site/programmi/PublishingBlock-09091aa7-e62c-4e2e-9fd6-44195372802d.html?prog=ContentItem-807fd8e4-748a-4283-88c4-fe281ddb2cca)
+
+**Percorso previsto:**  
+1. selezionare link "I PROGRAMMI" dal menù "Radio";  
+2. selezionare link "P" dalla lista alfabetica;  
+3. selezionare link "PETER PAN - I BAMBINI CI GUARDANO";  
+4. scorrere la pagina ottenuta fino a metà.
+
+**Criteri di successo:**
+L'utente deve trovare i contatti (telefono ed email) della persona a capo della conduzione del programma radio *Peter Pan - I Bambini Ci Guardano*.

@@ -36,7 +36,7 @@ Fornire alternative testuali per qualsiasi contenuto non di testo in modo che qu
 
 <br/>
 
-<strong>SINTOMO</strong>  
+<strong>SINTOMO (pagina *Bollettino stampa*)</strong>  
 Utenti che usano tecnologie assistive per la navigazione della pagina potrebbero non essere in grado di interpretare i vari form di ricerca "Archivio dei Bollettini".
 <div class="nice-border">
 ![Form Archivio Bollettini](img/form_archivio_bollettini.jpg)
@@ -61,6 +61,38 @@ Esempio:
     <input type="button" value="Ricerca" onclick="document.location.href = jQuery('#time').val();">
 </form>
 ```
+
+<br/>
+
+<strong>SINTOMO (pagina *Calendario*)</strong>  
+Persone che hanno difficoltà a capire il significato delle frecce, non possono essere aiutate dalla tecnologia assistiva a capirne l'utilizzo.
+<div class="nice-border">
+![Bottoni](img/buttons.png)
+</div>
+
+<strong>CAUSA</strong>  
+Non sono presenti spiegazioni testuali per l'utilizzo dei bottoni per la navigazione tra le pagine.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Aggiungere una spiegazione utilizzando delle aria-label per fare in modo che il lettore di schermo possa indicare la funzione dei link (tag ```<a>```).  
+Esempio:  
+
+```html
+<button class="arrLeft" aria-label="Indietro"></button>
+<button class="arrRight" aria-label="Avanti"></button>
+
+<a href="#" aria-label=“Indietro” onclick="javascript:history.go(-1);return false;">
+    <img border="0" src="/etc/designs/vatican/library/images/back.png" width="30" height="30" alt="Back" title="Back">
+</a>
+<a href="#" aria-label=“Top” onclick="javascript:history.go(-1);return false;">
+    <img border="0" src="/etc/designs/vatican/library/images/top.png" width="30" height="30" alt="Top" title="Top">
+</a>
+<a href="#" aria-label=“Stampa” onclick="self.print(); return false;">
+    <img border="0" src="/etc/designs/vatican/library/images/print.png" alt="Print" title="Print" width="26" height="26">
+</a>
+
+```
+
 
 ### Linea guida 1.2 Media temporizzati
 
@@ -105,8 +137,8 @@ Creare contenuti che possano essere rappresentati in modalità differenti (ad es
 
 <br/>
 
-<strong>SINTOMO</strong>  
-Nella pagina "Bollettino Stampa" la navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
+<strong>SINTOMO (pagina *Bollettino stampa*)</strong>  
+La navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
 
 <strong>CAUSA</strong>  
 I livelli di heading non vengono rispettati. Non è presente un ```<h1>``` all'interno del documento, solo una intestazione di livello 3 ```<h3>```.
@@ -116,14 +148,25 @@ Impostare una struttura corretta per le intestazioni.
 
 <br/>
 
-<strong>SINTOMO - luca</strong>  
-Nella pagina "Home" la navigazione può risultare confusionaria per chi utilizza tecnologie assistive come lettori di schermo.
+<strong>SINTOMO (pagina *Home*)</strong>  
+La navigazione può risultare confusionaria per chi utilizza tecnologie assistive come lettori di schermo.
 
 <strong>CAUSA</strong>  
 I livelli di heading sono mal utilizzati: tag ```<h1>``` riutilizzato più volte nella stessa pagina.
 
 <strong>POSSIBILE SOLUZIONE</strong>  
 Impostare una struttura corretta per le intestazioni.
+
+<br/>
+
+<strong>SINTOMO (pagina *Calendario*)</strong>  
+La navigazione può risultare confusionaria per chi utilizza tecnologie assistive come lettori di schermo.
+
+<strong>CAUSA</strong>  
+I livelli di heading non vengono rispettati: sono presenti i tag ```<h1>``` ed ```<h3>```, non viene utilizzato il tag ```<h2>```.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Seguire l'ordine degli heading facendo in modo che non vengano saltati livelli.
 
 <div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.3.2 Sequenza significativa</h4>
@@ -135,8 +178,8 @@ Impostare una struttura corretta per le intestazioni.
 
 <br/>
 
-<strong>SINTOMO</strong>  
-Nella pagina "Bollettino Stampa" la navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
+<strong>SINTOMO (pagina *Bollettino stampa*)</strong>  
+La navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
 
 <strong>CAUSA</strong>  
 Sia navigando da tastiera che utilizzando il lettore di schermo non è possibile leggere le "etichette" dei vari form di ricerca.
@@ -153,29 +196,63 @@ Eliminare il layout a tabella e utilizzare correttamente ```<label>``` per i for
 
 <br/>
 
-<strong>SINTOMO - luca</strong>  
-Utenti non abituati ad una regolare navigazione web potrebbero non arrivare ad intendere come fruire di tale contenuto<div class="nice-border">
+<strong>SINTOMO (pagina *Home*)</strong>  
+Utenti non abituati ad una regolare navigazione web potrebbero non arrivare ad intendere come fruire di tale contenuto.
+<div class="nice-border">
 ![Sezione Pontefici](img/sezione-pontefici.png)
 </div>
 
 <strong>CAUSA</strong>  
 Sezione della pagina fruibile scrollando orizzontalmente, per vedere l’intero contenuto che è in parte nascosto.
 
+<strong>POSSIBILE SOLUZIONE</strong>  
+Segnalare all'utente una possibile interazione con un contenuto parzialmente nascosto che è fruibile tramite spostamento orizzontale (rotella del mouse, barra di spostamento della sezione, ...).
+
+<br/>
+
+<strong>SINTOMO (pagina *Calendario*)</strong>  
+Persone cieche o con limitata capacità visiva potrebbero non capire come utilizzare il componente di ricerca.
+
+<strong>CAUSA</strong>  
+Il pulsante che permette di inviare la richiesta di ricerca, per far capire all'utente la sua funzione, si basa solo sulla posizione e il carattere contenuto.
+```html
+<input type="submit" value="»" name="go">
+```
 
 <strong>POSSIBILE SOLUZIONE</strong>  
-Segnalare all'utente una possibile interazione con un contenuto parzialmente nascosto che è fruibile tramite spostamento orizzontale (rotella del mouse, barra di spostamento della sezione, ...)
+Sostituire informazione testuale a quella visiva.
+```html
+<input type="submit" value="Vai" name="go">
+```
 
 
 ### Linea guida 1.4 Distinguibile
 
 Rendere più semplice agli utenti la visione e l'ascolto dei contenuti, separando i contenuti in primo piano dallo sfondo.
 
-<div class="success-criteria success-criteria-success">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 1.4.1 Uso del colore</h4>
      <p>Il colore non deve essere utilizzato come unica modalità visiva per rappresentare informazioni, indicare azioni, richiedere risposte o come elemento di distinzione visiva.</p>
      <br>
-     <p><strong>Esito: POSITIVO</strong></p>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
+
+<br/>
+
+<strong>SINTOMO (pagina *Calendario*)</strong>  
+Persone con problemi nella visualizzazione dei colori potrebbero non percepire lo stato in cui un elemento è in focus o hover.
+
+<strong>CAUSA</strong>  
+Il colore e l’opacità sono utilizzati come unica modalità visiva per rappresentare alcune informazioni.
+<div class="nice-border">
+![Calendario](img/calendar.png)
+</div>
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Utilizzare il css per fornire altre informazioni oltre al colore, per esempio utilizzare la proprietà ```text-decoration``` per aggiungere la sottolineatura.
+```css
+a:active, a:hover {text-decoration:underline;}
+```
 
 <div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 1.4.2 Controllo del sonoro</h4>
@@ -192,12 +269,28 @@ I componenti e la navigazione dell'interfaccia utente devono essere utilizzabili
 
 Rendere disponibili tutte le funzionalità tramite tastiera.
 
-<div class="success-criteria success-criteria-success">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 2.1.1 Tastiera</h4>
      <p>Tutte le funzionalità del contenuto sono utilizzabili tramite un'interfaccia di tastiera senza richiedere tempi specifici per la pressione dei singoli tasti, salvo il caso in cui sia la funzionalità di fondo a richiedere un input che dipende dal percorso del movimento dell'utente e non solo dai suoi punti d'arrivo.</p>
      <br>
-     <p><strong>Esito: POSITIVO</strong></p>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
+
+<br/>
+
+<strong>SINTOMO (pagina *Calendario*)</strong>  
+Persone cieche o con limitata capacità visiva e quelle con tremori di mano tali da non poter usare il mouse, non riescono ad usufruire pienamente del sito.
+
+<strong>CAUSA</strong>  
+Non tutte le funzionalità del contenuto sono utilizzabili tramite un'interfaccia di tastiera a causa dell’utilizzo di eventi attivabili solo da mouse e gestiti tramite jQuery:  
+
+- Non è possibile consultare l’orario degli eventi in programma;
+- Non è possibile passare al mese precedente o successivo nel calendario;
+- Non è possibile effettuare alcuna ricerca in Archivio Eventi.
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Aggiungere la possibilità di attivare le funzionalità anche con evento ```keydown()```.
+
 
 <div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 2.1.2 Nessun impedimento all'uso della tastiera</h4>
@@ -235,7 +328,7 @@ Fornire agli utenti tempo sufficiente per leggere e utilizzare i contenuti.
 
 <br/>
 
-<strong>SINTOMO - luca</strong>  
+<strong>SINTOMO (pagina *Home*)</strong>  
 Utenti che non utilizzano un mouse non sono in grado di posizionare il puntatore sopra il testo a scorrimento per fermarlo temporaneamente.
 <div class="nice-border">
 ![Testo a scorrimento](img/testo-a-scorrimento.png)
@@ -275,7 +368,7 @@ Fornire delle funzionalità di supporto all'utente per navigare, trovare contenu
 
 <br/>
 
-<strong>SINTOMO</strong>  
+<strong>SINTOMO (pagina *___*)</strong>  
 Persone con disabilità fanno fatica a raggiungere il contenuto principale velocemente e facilmente.
 
 <strong>CAUSA</strong>  
@@ -381,9 +474,11 @@ Creare pagine Web che abbiano aspetto e funzionamento prevedibili.
      <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 3.2.2 All'input</h4>
      <p>Cambiare l'impostazione di qualsiasi componente nell'interfaccia utente non provoca automaticamente un cambiamento di contesto, a meno che l'utente sia stato informato del comportamento prima di utilizzare il componente.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
 
@@ -395,11 +490,13 @@ Aiutare gli utenti a evitare gli errori e agevolarli nella loro correzione.
 <div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 3.3.1 Identificazione di errori</h4>
      <p>Se viene rilevato automaticamente un errore di inserimento, l'elemento in errore viene identificato e l'errore descritto tramite testo.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
 <br/>
 
-<strong>SINTOMO - luca</strong>  
+<strong>SINTOMO (pagina *Home*)</strong>  
 Errori di battitura da tastiera nell’inserimento di alcuni input non vengono segnalati.
 <div class="nice-border">
     ![Errori di input 1](img/errori-input-1.png)
@@ -415,10 +512,39 @@ Mancanza di meccanismo di controllo dell’input e generazione della segnalazion
 Implementazione di meccanismo per la rilevazione di errori e la notifica agli utenti degli stessi.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 3.3.2 Etichette o istruzioni</h4>
      <p>Sono fornite etichette o istruzioni quando il contenuto richiede azioni di input da parte dell'utente.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
+
+<br/>
+
+<strong>SINTOMO (pagina *Calendario*)</strong>  
+Gli utenti con disabilità cognitive non riescono ad utilizzare lo strumento di ricerca. Il lettore di schermo non dà informazioni sull’utilizzo.
+
+<strong>CAUSA</strong>  
+Gli utenti non hanno adeguati suggerimenti per le operazioni di input per il form di ricerca nell’Archivio Eventi.
+```html
+<select name="year" style="display: none;">
+<option value="">Anno</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+</select>
+```
+
+<strong>POSSIBILE SOLUZIONE</strong>  
+Inserire una ```<label>``` associata al ```<select>``` per la ricerca.  
+Esempio:
+```html
+<label for="year">Seleziona l’anno della ricerca</label>
+<select id=”year” name="year">
+<option value="">Anno</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+</select>
+```
 
 
 ## 4. Robusto
