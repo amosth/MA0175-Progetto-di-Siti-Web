@@ -11,12 +11,13 @@ date: 2019-07-10
 # Risultati in dettaglio
 
 ## Caso d'uso 1  
-Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.
+Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.  
+**NB**: il test di questo caso d'uso è stato considerato POSITIVO nonostante le repliche dei telegiornali siano rese fruibili tramite il sito nazionale [Rai News](https://rainews.it).
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente A</h3>
-          <p><strong>Esito: </strong>POSITIVO</p>
+          <h3>Partecipante A</h3>
+          <p><strong>Esito: </strong>NEGATIVO</p>
           <p><strong>Tempo impiegato: </strong>1 minuto 45 secondi</p>
      </div>
      <div class="test-box-body">
@@ -35,10 +36,10 @@ Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.
      </div>
 </div>
 
-<div class="test-box border-danger">
-     <div class="test-box-head bg-danger">
-          <h3>Utente B</h3>
-          <p><strong>Esito: </strong> NEGATIVO </p>
+<div class="test-box border-success">
+     <div class="test-box-head bg-success">
+          <h3>Partecipante B</h3>
+          <p><strong>Esito: </strong> POSITIVO</p>
           <p><strong>Tempo impiegato: </strong>1 minuto 3 secondi</p>
      </div>
      <div class="test-box-body">
@@ -51,15 +52,14 @@ Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.
                <li> Visualizza tg tramite box video streaming. </li>
           </ul>
           <p><strong>Commenti: </strong>
-               Nonostante il compito sembri essere portato a termine con successo, il box contentente il video streaming del tg
-               in questione è situato in una pagina rai con dominio differente da quello di interesse per la nostra indagine (https://www.rainews.it), pertanto viene considerato di esito NEGATIVO.
+               [nessuno]
           </p>
      </div>
 </div>
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente C</h3>
+          <h3>Partecipante C</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong> 21 secondi</p>
      </div>
@@ -78,7 +78,7 @@ Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.
 
 <div class="test-box border-danger">
      <div class="test-box-head bg-danger">
-          <h3>Utente D</h3>
+          <h3>Partecipante D</h3>
           <p><strong>Esito: </strong>NEGATIVO</p>
           <p><strong>Tempo impiegato: </strong>2 minuti 40 secondi</p>
      </div>
@@ -100,7 +100,7 @@ Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente E</h3>
+          <h3>Partecipante E</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong>57 secondi</p>
      </div>
@@ -121,10 +121,10 @@ Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.
 ## Caso d'uso 2  
 Trovare l’indirizzo di posta elettronica della Sede Regionale RAI del Friuli Venezia Giulia.
 
-<div class="test-box border-success">
-     <div class="test-box-head bg-success">
-          <h3>Utente A</h3>
-          <p><strong>Esito: </strong>POSITIVO</p>
+<div class="test-box border-danger">
+     <div class="test-box-head bg-danger">
+          <h3>Partecipante A</h3>
+          <p><strong>Esito: </strong>NEGATIVO</p> (eseguito fuori tempo massimo)
           <p><strong>Tempo impiegato: </strong>2 minuti 10 secondi</p>
      </div>
      <div class="test-box-body">
@@ -145,7 +145,7 @@ Trovare l’indirizzo di posta elettronica della Sede Regionale RAI del Friuli V
 
 <div class="test-box border-danger">
      <div class="test-box-head bg-danger">
-          <h3>Utente B</h3>
+          <h3>Partecipante B</h3>
           <p><strong>Esito: </strong> NEGATIVO </p>
           <p><strong>Tempo impiegato: </strong>(rinuncia a) 1 minuti 13 secondi</p>
      </div>
@@ -165,7 +165,7 @@ Trovare l’indirizzo di posta elettronica della Sede Regionale RAI del Friuli V
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente C</h3>
+          <h3>Partecipante C</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong> 36 secondi</p>
      </div>
@@ -186,7 +186,7 @@ Trovare l’indirizzo di posta elettronica della Sede Regionale RAI del Friuli V
 
 <div class="test-box border-danger">
      <div class="test-box-head bg-danger">
-          <h3>Utente D</h3>
+          <h3>Partecipante D</h3>
           <p><strong>Esito: </strong> NEGATIVO </p>
           <p><strong>Tempo impiegato: </strong>(rinuncia a) 2 minuti 20 secondi</p>
      </div>
@@ -206,7 +206,7 @@ Trovare l’indirizzo di posta elettronica della Sede Regionale RAI del Friuli V
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente E</h3>
+          <h3>Partecipante E</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong>1 minuto 24 secondi</p>
      </div>
@@ -228,7 +228,7 @@ Trovare la frequenza radio per sintonizzarsi a RAI Radio1 da Tarvisio.
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente A</h3>
+          <h3>Partecipante A</h3>
           <p><strong>Esito: </strong>POSITIVO</p>
           <p><strong>Tempo impiegato: </strong>1 minuto 3 secondi</p>
      </div>
@@ -247,7 +247,7 @@ Trovare la frequenza radio per sintonizzarsi a RAI Radio1 da Tarvisio.
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente B</h3>
+          <h3>Partecipante B</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong> 16 secondi</p>
      </div>
@@ -265,7 +265,7 @@ Trovare la frequenza radio per sintonizzarsi a RAI Radio1 da Tarvisio.
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente C</h3>
+          <h3>Partecipante C</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong> 25 secondi</p>
      </div>
@@ -283,7 +283,7 @@ Trovare la frequenza radio per sintonizzarsi a RAI Radio1 da Tarvisio.
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente D</h3>
+          <h3>Partecipante D</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong>39 secondi</p>
      </div>
@@ -301,7 +301,7 @@ Trovare la frequenza radio per sintonizzarsi a RAI Radio1 da Tarvisio.
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente E</h3>
+          <h3>Partecipante E</h3>
           <p><strong>Esito: </strong>POSITIVO</p>
           <p><strong>Tempo impiegato: </strong>1 minuto 7 secondi</p>
      </div>
@@ -324,7 +324,7 @@ Ascoltare l’ultima puntata andata in onda del programma *Rock Revolution*.
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente A</h3>
+          <h3>Partecipante A</h3>
           <p><strong>Esito: </strong>POSITIVO</p>
           <p><strong>Tempo impiegato: </strong>1 minuto 42 secondi</p>
      </div>
@@ -332,19 +332,19 @@ Ascoltare l’ultima puntata andata in onda del programma *Rock Revolution*.
           <p><strong>Percorso seguito:</strong></p>
           <ul>
                <li>Ricerca il programma desiderato tramite la  barra di ricerca.</li>
-               <li>Nessun risultato. L'utente crede che il programma possa non esistere.</li>
+               <li>Nessun risultato. Il partecipante crede che il programma possa non esistere.</li>
                <li>Click pagina "PODCAST".</li>
                <li>Click pagina del programma "Rock Revolution".</li>
           </ul>
           <p><strong>Commenti: </strong>
-               Non sapevo il significato di "podcast".
+               Il partecipante non conosceva il significato del termine "podcast".
           </p>
      </div>
 </div>
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente B</h3>
+          <h3>Partecipante B</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong>1 minuto 24 secondi</p>
      </div>
@@ -366,7 +366,7 @@ Ascoltare l’ultima puntata andata in onda del programma *Rock Revolution*.
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente C</h3>
+          <h3>Partecipante C</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong>1 minuto 13 secondi</p>
      </div>
@@ -387,7 +387,7 @@ Ascoltare l’ultima puntata andata in onda del programma *Rock Revolution*.
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente D</h3>
+          <h3>Partecipante D</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong>2 minuti 54 secondi</p>
      </div>
@@ -415,7 +415,7 @@ Ascoltare l’ultima puntata andata in onda del programma *Rock Revolution*.
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente E</h3>
+          <h3>Partecipante E</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong>1 minuto 18 secondi</p>
      </div>
@@ -441,7 +441,7 @@ Trovare i contatti (telefono ed email) della persona a capo della conduzione del
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente A</h3>
+          <h3>Partecipante A</h3>
           <p><strong>Esito: </strong>POSITIVO</p>
           <p><strong>Tempo impiegato: </strong>3 minuti 32 secondi</p>
      </div>
@@ -460,14 +460,14 @@ Trovare i contatti (telefono ed email) della persona a capo della conduzione del
                <li>Trova il contatto della conduttrice.</li>
           </ul>
           <p><strong>Commenti: </strong>
-               Assurdo che non si possa accedere dai podcast del programma alla pagina generale del programma.
+               [nessuno]
           </p>
      </div>
 </div>
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente B</h3>
+          <h3>Partecipante B</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong>2 minuto 50 secondi</p>
      </div>
@@ -492,7 +492,7 @@ Trovare i contatti (telefono ed email) della persona a capo della conduzione del
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente C</h3>
+          <h3>Partecipante C</h3>
           <p><strong>Esito: </strong> POSITIVO </p>
           <p><strong>Tempo impiegato: </strong>1 minuto</p>
      </div>
@@ -515,7 +515,7 @@ Trovare i contatti (telefono ed email) della persona a capo della conduzione del
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente D</h3>
+          <h3>Partecipante D</h3>
           <p><strong>Esito: </strong>POSITIVO</p>
           <p><strong>Tempo impiegato: </strong>1 minuto 38 secondi</p>
      </div>
@@ -535,7 +535,7 @@ Trovare i contatti (telefono ed email) della persona a capo della conduzione del
 
 <div class="test-box border-success">
      <div class="test-box-head bg-success">
-          <h3>Utente E</h3>
+          <h3>Partecipante E</h3>
           <p><strong>Esito: </strong>POSITIVO</p>
           <p><strong>Tempo impiegato: </strong>58 secondi</p>
      </div>

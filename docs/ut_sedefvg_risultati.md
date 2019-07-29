@@ -7,10 +7,11 @@ authors:
     - Luca Dal Poz
 date: 2019-07-10
 ---
+# Valutazioni finali user test del sito Sede Rai FVG
 
-# Tabelle riassuntive dei risultati
+## Tabella riassuntiva dei risultati
 
-## Caso d'uso 1
+### Caso d'uso 1
 
 Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.
 
@@ -46,7 +47,7 @@ Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.
     </tbody>
 </table>
 
-## Caso d'uso 2
+### Caso d'uso 2
 
 Trovare l’indirizzo di posta elettronica della Sede Regionale RAI del Friuli Venezia Giulia.
 
@@ -82,7 +83,7 @@ Trovare l’indirizzo di posta elettronica della Sede Regionale RAI del Friuli V
     </tbody>
 </table>
 
-## Caso d'uso 3
+### Caso d'uso 3
 
 Trovare la frequenza radio per sintonizzarsi a RAI Radio1 da Tarvisio.
 
@@ -118,7 +119,7 @@ Trovare la frequenza radio per sintonizzarsi a RAI Radio1 da Tarvisio.
     </tbody>
 </table>
 
-## Caso d'uso 4
+### Caso d'uso 4
 
 Ascoltare l’ultima puntata andata in onda del programma *Rock Revolution*.
 
@@ -154,7 +155,7 @@ Ascoltare l’ultima puntata andata in onda del programma *Rock Revolution*.
     </tbody>
 </table>
 
-## Caso d'uso 5
+### Caso d'uso 5
 
 Trovare i contatti (telefono ed email) della persona a capo della conduzione del programma radio *Peter Pan - I Bambini Ci Guardano*.
 
@@ -187,5 +188,44 @@ Trovare i contatti (telefono ed email) della persona a capo della conduzione del
             <td>58<abbr title="secondi">sec</abbr></td>
         </tr>
 
+    </tbody>
+</table>
+
+## Problemi riscontrati
+
+<table>
+    <thead>
+        <tr>
+            <th scope="col">Caso d'uso</th>
+            <th scope="col">Problema</th>
+            <th scope="col">Gravità</th>
+            <th scope="col">Possibile rimedio</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Tutti</td>
+            <td>L'utente percepisce la prima navbar in alto dell'ente di appartenenza (in questo caso <a href="http://rai.tv">Rai</a>) come menu principale del sito in analisi e quindi basa principalmente la sua navigazione su questo elemento della pagina.</td>
+            <td class="bg-warning">Minore</td>
+            <td>Riconsiderare l'aspetto grafico della navbar per assegnarle il giusto significato.</td>
+        </tr>
+        <tr>
+            <td>1-4-5</td>
+            <td>Al momento dell'inserimento della query di ricerca nell'apposito form la scritta predefinita "Cerca nel sito" non scompare al focus dell'utente nell'input (perché impostata come <code>value</code> dell'input, non come placeholder). Questo causa errori di ricerca e perdita di tempo.</td>
+            <td class="bg-warning">Minore</td>
+            <td>Utilizzare un placeholder o meglio una label.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>L'utilizzo della termine inglese "podcast" ha costituito una barriera nel raggiungimento dell'obiettivo per gli utenti che non conoscevano il significato di tale parola.</td>
+            <td class="bg-warning">Minore</td>
+            <td>Cambiare la dicitura "podcast" in "repliche" o simili.</td>
+        </tr>
+        <tr>
+            <td>1-4-5</td>
+            <td>Non è chiaro il funzionamento della ricerca all'interno del sito, i risultati non prevedibili dall'utente (la logica non si riesce nemmeno a indovinare).</td>
+            <td class="bg-danger">Importante</td>
+            <td>Riprogettare l'algoritmo di ricerca.</td>
+        </tr>
     </tbody>
 </table>

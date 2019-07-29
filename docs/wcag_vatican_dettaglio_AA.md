@@ -47,16 +47,18 @@ Fornire alternative per i media temporizzati.
 Creare contenuti che possano essere rappresentati in modalità differenti (ad esempio, con layout più semplici), senza perdere informazioni o struttura.
 
 
-<div class="success-criteria  success-criteria-success">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 1.3.4 Orientamento</h4>
      <p>La visualizzazione e il funzionamento di un contenuto non dipendono dall'orientamento dello schermo, ad esempio verticale o orizzontale, a meno che questo non sia essenziale.</p>
      <br>
      <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 1.3.5 Identificare lo scopo degli input</h4>
      <p>Lo scopo di ciascun campo di input per le informazioni sull'utente può essere determinato programmaticamente quando: il campo di input ha uno scopo noto, identificato nella sezione scopo dell'input per i componenti dell'interfaccia utente; e il contenuto è implementato utilizzando tecnologie che supportino l'identificazione del significato atteso dei dati inseriti del modulo.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
 
@@ -68,7 +70,7 @@ Rendere più semplice agli utenti la visione e l'ascolto dei contenuti, separand
      <h4>Criterio di successo 1.4.3 Contrasto (minimo)</h4>
      <p>La rappresentazione visiva del testo e di immagini contenenti testo ha un rapporto di contrasto di almeno 4.5:1, fatta eccezione per i seguenti casi: testo grande, testo non essenziale, logotipi.</p>
      <br/>
-     <strong>Esito: NEGATIVO</storng>
+     <strong>Esito: NEGATIVO</strong>
 </div>
 
 <br/>
@@ -205,22 +207,23 @@ I componenti e la navigazione dell'interfaccia utente devono essere utilizzabili
 Fornire delle funzionalità di supporto all'utente per navigare, trovare contenuti e determinare la propria posizione.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 2.4.5 Differenti modalità</h4>
-
      <p>Rendere disponibili più modalità per identificare una pagina Web all'interno di un insieme di pagine Web, salvo il caso in cui una pagina Web sia il risultato – o una fase – di un'azione.</p>
+     <br>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
 <div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 2.4.6 Intestazioni ed etichette</h4>
      <p>Utilizzare intestazioni ed etichette per descrivere argomenti o finalità.</p>
      <br>
-     <p><strong>Esito: NEGATIVO</strong></p>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
 <br/>
 
-<strong>SINTOMO (Pagina *Bollettino stampa*)</strong>  
+<strong>SINTOMO</strong>  
 La navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
 
 <strong>CAUSA</strong>  
@@ -228,33 +231,6 @@ All'interno della pagina non esiste una struttura corretta di instestazioni e no
 
 <strong>POSSIBILE SOLUZIONE</strong>  
 Utilizzare correttamente le intestazioni e le etichette.
-
-<br/>
-
-<strong>SINTOMO (Pagina *Home*)</strong>  
-La navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
-
-<strong>CAUSA</strong>  
-Assenza totale di etichette.
-
-<strong>POSSIBILE SOLUZIONE</strong>  
-Popolare gli elementi della pagina con etichette che li descrivano.  
-*Esempio:*
-```html
-<label>Descrizione elemento</label>
-```
-
-<br/>
-
-<strong>SINTOMO (Pagina *Calendario*)</strong>  
-La navigazione può risultare difficile per chi utilizza la tastiera e i lettori di schermo.
-
-<strong>CAUSA</strong>  
-Assenza di etichette.
-
-<strong>POSSIBILE SOLUZIONE</strong>  
-Popolare gli elementi della pagina con etichette che li descrivano.  
-
 
 <div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 2.4.7 Focus visibile</h4>
@@ -350,10 +326,11 @@ Creare pagine Web che abbiano aspetto e funzionamento prevedibili.
 Aiutare gli utenti a evitare gli errori e agevolarli nella loro correzione.
 
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 3.3.3 Suggerimenti per gli errori</h4>
-
      <p>Se viene identificato un errore di inserimento e sono noti dei suggerimenti per correggerlo, tali suggerimenti vengono forniti all'utente, a meno che ciò non pregiudichi la sicurezza o la finalità del contenuto.</p>
+     <br>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>
 
 <div class="success-criteria success-criteria-warning">
@@ -371,9 +348,9 @@ Il contenuto deve essere abbastanza robusto per essere interpretato in maniera a
 
 Garantire la massima compatibilità con i programmi utente attuali e futuri, comprese le tecnologie assistive.
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-warning">
      <h4>Criterio di successo 4.1.3 Messaggi di stato</h4>
      <p>Nei contenuti implementati utilizzando i linguaggi di marcatura, i messaggi di stato possono essere determinati programmaticamente tramite ruolo o proprietà in modo tale che possano essere presentati all'utente mediante tecnologie assistive senza ricevere il focus.</p>
      <br>
-     <p><strong>Esito: </strong></p>
+     <p><strong>Esito: NON VALUTABILE</strong></p>
 </div>

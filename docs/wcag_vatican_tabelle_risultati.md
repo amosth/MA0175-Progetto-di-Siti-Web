@@ -55,7 +55,7 @@ date: 2019-07-10
             <td>3.3.2 Etichette o istruzioni</td>
         </tr>
         <tr class="success">
-            <td rowspan="9" class="result">POSITIVO</td>
+            <td rowspan="10" class="result">POSITIVO</td>
             <td>2.1.2 Nessun impedimento all'uso della tastiera</td>
         </tr>
         <tr class="success">
@@ -81,6 +81,9 @@ date: 2019-07-10
         </tr>
         <tr class="success">
             <td>4.1.1 Analisi sintattica (parsing)</td>
+        </tr>
+        <tr class="success">
+            <td>4.1.2 Nome, ruolo, valore</td>
         </tr>
         <tr class="warning">
             <td rowspan="9" class="result">NON VALUTABILE</td>
@@ -166,11 +169,14 @@ date: 2019-07-10
             <td>3.2.4 Identificazione coerente</td>
         </tr>
         <tr class="warning">
-            <td rowspan="3" class="result">NON VALUTABILE</td>
+            <td rowspan="4" class="result">NON VALUTABILE</td>
             <td>1.2.4 Sottotitoli (in tempo reale)</td>
         </tr>
         <tr class="warning">
             <td>1.2.5 Audiodescrizione (preregistrata)</td>
+        </tr>
+        <tr class="warning">
+            <td>1.3.5 Identificare lo scopo degli input</td>
         </tr>
         <tr class="warning">
             <td>3.3.4 Prevenzione degli errori (legali, finanziari, dati)</td>

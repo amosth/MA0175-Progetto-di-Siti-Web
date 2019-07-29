@@ -368,7 +368,7 @@ Fornire delle funzionalità di supporto all'utente per navigare, trovare contenu
 
 <br/>
 
-<strong>SINTOMO (pagina *___*)</strong>  
+<strong>SINTOMO (pagina *Bollettino Stampa*)</strong>  
 Persone con disabilità fanno fatica a raggiungere il contenuto principale velocemente e facilmente.
 
 <strong>CAUSA</strong>  
@@ -487,30 +487,12 @@ Creare pagine Web che abbiano aspetto e funzionamento prevedibili.
 Aiutare gli utenti a evitare gli errori e agevolarli nella loro correzione.
 
 
-<div class="success-criteria success-criteria-danger">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 3.3.1 Identificazione di errori</h4>
      <p>Se viene rilevato automaticamente un errore di inserimento, l'elemento in errore viene identificato e l'errore descritto tramite testo.</p>
      <br>
-     <p><strong>Esito: NEGATIVO</strong></p>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>
-
-<br/>
-
-<strong>SINTOMO (pagina *Home*)</strong>  
-Errori di battitura da tastiera nell’inserimento di alcuni input non vengono segnalati.
-<div class="nice-border">
-    ![Errori di input 1](img/errori-input-1.png)
-</div>
-<div class="nice-border">
-    ![Errori di input 2](img/errori-input-2.png)
-</div>
-
-<strong>CAUSA</strong>  
-Mancanza di meccanismo di controllo dell’input e generazione della segnalazione all’utente.
-
-<strong>POSSIBILE SOLUZIONE</strong>  
-Implementazione di meccanismo per la rilevazione di errori e la notifica agli utenti degli stessi.
-
 
 <div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 3.3.2 Etichette o istruzioni</h4>
@@ -564,8 +546,9 @@ Garantire la massima compatibilità con i programmi utente attuali e futuri, com
      <p><strong>Esito: POSITIVO</strong></p>
 </div>
 
-<div class="success-criteria">
+<div class="success-criteria success-criteria-success">
      <h4>Criterio di successo 4.1.2 Nome, ruolo, valore</h4>
-
      <p>Per tutti i componenti dell'interfaccia utente (inclusi ma non limitati a: elementi di un modulo, collegamenti e componenti generati da script), nome e ruolo possono essere determinati programmaticamente; stati, proprietà e valori che possono essere impostati dall'utente possono essere impostabili da programma; e le notifiche sui cambi di stato di questi elementi sono rese disponibili ai programmi utente, incluse le tecnologie assistive.</p>
+     <br>
+     <p><strong>Esito: POSITIVO</strong></p>
 </div>

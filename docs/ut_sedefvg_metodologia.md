@@ -36,7 +36,7 @@ Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.
 Facile
 
 **Tempo previsto:**
-1 minuto
+1 minuto e 30 secondi
 
 **Pagina di partenza:**
 [Homepage - sedefvg.rai.it](http://www.sedefvg.rai.it)
@@ -63,7 +63,7 @@ Trovare l’indirizzo di posta elettronica della Sede Regionale RAI del Friuli V
 Facile
 
 **Tempo previsto:**
-1 minuto
+1 minuto e 30 secondi
 
 **Pagina di partenza:**
 [Homepage - sedefvg.rai.it](http://www.sedefvg.rai.it)
@@ -89,7 +89,7 @@ Trovare la frequenza radio per sintonizzarsi a RAI Radio1 da Tarvisio.
 Medio
 
 **Tempo previsto:**
-5 minuti
+2 minuti
 
 **Pagina di partenza:**
 [Homepage - sedefvg.rai.it](http://www.sedefvg.rai.it)
@@ -107,7 +107,7 @@ L'utente deve ottenere la frequenza radio per sintonizzarsi a RAI Radio1 da Tarv
 ### Caso d'uso 4
 
 **Scenario:**
-"Un amico ti ha consigliato di seguire il programma *Rock Revolution*. Interessato dal consiglio, vuoi ascoltare l'ultima puntata andata in onda".
+"Un amico ti ha consigliato di seguire il programma radio *Rock Revolution*. Interessato dal consiglio, vuoi ascoltare l'ultima puntata andata in onda".
 
 **Scopo:**
 Ascoltare l’ultima puntata andata in onda del programma *Rock Revolution*.
