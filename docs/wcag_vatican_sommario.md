@@ -19,9 +19,9 @@ date: 2019-07-10
 
 ## Dichiarazione di conformità
 
-- Data della dichiarazione:
+- Data della dichiarazione: 15 luglio 2019
 - Linee guida: WCAG 2.1 "Web Content Accessibility Guidelines 2.1
-- Livello di conformità soddisfatto: nessuno
+- Livello di conformità soddisfatto: **NESSUNO**
 - Pagine analizzate:
     - vatican.va: [Homepage](http://w2.vatican.va/content/vatican/it.html)
     - vatican.va: [Bollettino Sala Stampa](http://press.vatican.va/content/salastampa/it/bollettino.html)
