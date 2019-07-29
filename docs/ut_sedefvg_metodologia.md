@@ -10,14 +10,26 @@ date: 2019-07-10
 
 # Metodologia
 
-In generale l'indagine è costituita prevalentemente dai seguenti passi:
+Per lo svolgimento del test sono state seguite queste fasi:
 
-- **Pianificazione**: una volta determinati gli obiettivi del test, bisogna definire i tipi di utenti che verranno coinvolti, i tipi di compiti e le modalità di esecuzione del test;
-- **Reclutamento**: dipende ovviamente dal tipo di utente di cui si ha bisogno. Normalmente durante la pianificazione si cerca di definire la tipologia di utente con il quale si possa avere il miglior risultato per lo scopo (dipende dalle caratteristiche che possiede, come esperienza, apprendimento, impegno, ecc...);
-- **Briefing**: questa fase serve per spiegare all'utente lo scopo del test e come esso debba esser svolto. Inizialmente all'utente vengono fatte delle domande pertinenti o più facilmente gli si chiede di rispondere ad un questionario in grado di determinare le giuste caratteristiche.
-- **Esecuzione**: durante l'esecuzione del test l'utente verrà seguito da uno o più sperimentatori, i quali avranno cura di prender nota di ciò che succede, di valutare se il test stia proseguendo bene e di condurre il protocollo *think aloud*. È importante assumere un atteggiamento aperto nei confronti dell'utente ed evitare in qualsiasi modo che si instauri un rapporto conflittuale con l'utente, che renderebbe totalmente inutile il test. È importante anche che l'utente venga supportato ed incoraggiato, anche nei casi in cui si incontrino maggiori difficoltà;
-- **Debriefing**: esso serve per elaborare le idee raccolte durante l'esecuzione del test. È possibile condurre un'intervista che possa raccogliere informazioni e pareri riguardo al test; è utile per la valutazione della soddisfazione e per una eventuale spiegazione riguardo le scelte intraprese, in modo tale di migliorare il test nei casi futuri o capire come l'utente medio si comporta.
+- **Pianificazione**:
+    - Determinazione obiettivi del test;
+    - Reclutamento partecipanti con criteri di screening (età, lavoro, esperienza utilizzo computer/Internet, ...);
+    - Individuazione degli scenari d'uso;
+    - Definizione dei compiti;
 
+- **Briefing**:
+    - Accoglienza del partecipante e spiegazione di come si svolgerà il test;
+    - Spiegazione dello svolgimento dei compiti da eseguire durante il test;
+    - Richiesta consenso per la registrazione di dati durante il test;
+
+- **Esecuzione**:
+    - Lettura dei casi d'uso;
+    - Inizio esecuzione del test;
+    - Raccolta dati relativi all'esecuzione del test;
+
+- **Debriefing**:
+    - Domande aggiuntive al partecipante sulle sue impressioni e sensazioni durante lo svolgimento del test.
 
 
 ## Casi d'uso
