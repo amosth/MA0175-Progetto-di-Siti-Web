@@ -10,7 +10,7 @@ date: 2019-07-10
 
 # Introduzione allo User Testing
 
-In questa sezione verrà  mostrato lo User Testing condotto sul sito RAI Friuli Venezia-Giulia: questo test ha lo scopo di evidenziare, grazie al contributo di utenti, i difetti di usabilità  del sito.
+In questa sezione verrà  mostrato lo User Testing condotto sul sito RAI Friuli Venezia-Giulia: questo test ha lo scopo di evidenziare, grazie al contributo di partecipanti, i difetti di usabilità  del sito.
 
 ## Strumenti utilizzati
 

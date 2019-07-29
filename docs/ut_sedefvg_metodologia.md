@@ -34,7 +34,7 @@ Per lo svolgimento del test sono state seguite queste fasi:
 
 ## Casi d'uso
 
-I casi d'uso identificati sono stati presentati agli utenti seguendo un ordine di difficoltà (dal più semplice al più difficile).
+I casi d'uso identificati sono stati presentati ai partecipanti seguendo un ordine di difficoltà (dal più semplice al più difficile).
 
 ### Caso d'uso 1
 
@@ -61,7 +61,7 @@ Pagina di visualizzazione del video del TGR selezionato.
 2. selezionare link del TGR desiderato.
 
 **Criterio di successo:**
-L'utente deve visualizzare il TGR trasmesso la sera precedente.
+Il partecipante deve visualizzare il TGR trasmesso la sera precedente.
 
 ### Caso d'uso 2
 
@@ -87,7 +87,7 @@ Facile
 1. selezionare link "LA SEDE" dalla navbar.
 
 **Criterio di successo:**
-L'utente deve ottenere l'indirizzo email della Sede Regionale RAI del Friuli Venezia Giulia.
+Il partecipante deve ottenere l'indirizzo email della Sede Regionale RAI del Friuli Venezia Giulia.
 
 ### Caso d'uso 3
 
@@ -114,7 +114,7 @@ Medio
 2. scorrere fino a fine pagina.
 
 **Criterio di successo:**
-L'utente deve ottenere la frequenza radio per sintonizzarsi a RAI Radio1 da Tarvisio.
+Il partecipante deve ottenere la frequenza radio per sintonizzarsi a RAI Radio1 da Tarvisio.
 
 ### Caso d'uso 4
 
@@ -145,7 +145,7 @@ Medio
 6. avviare il player.
 
 **Criterio di successo:**
-L'utente deve ascoltare l’ultima puntata andata in onda del programma *Rock Revolution*.
+Il partecipante deve ascoltare l’ultima puntata andata in onda del programma *Rock Revolution*.
 
 ### Caso d'uso 5
 
@@ -174,29 +174,29 @@ Medio
 4. scorrere la pagina ottenuta fino a metà.
 
 **Criterio di successo:**
-L'utente deve trovare i contatti (telefono ed email) della persona a capo della conduzione del programma radio *Peter Pan - I Bambini Ci Guardano*.
+Il partecipante deve trovare i contatti (telefono ed email) della persona a capo della conduzione del programma radio *Peter Pan - I Bambini Ci Guardano*.
 
 
 
-## Reclutamento degli utenti
+## Reclutamento dei partecipanti
 
-Secondo una ricerca condotta da Jakob Nielsen, un test effettuato con 5 utenti riesce ad individuare il 75-80% dei problemi di usabilità di un sito web. Per il nostro test abbiamo perciò reclutato un campione di 5 utenti, scelti tra diverse fasce di età e di esperienza in merito all'utilizzo di computer e di Internet.
+Secondo una ricerca condotta da Jakob Nielsen, un test effettuato con 5 partecipanti riesce ad individuare il 75-80% dei problemi di usabilità di un sito web. Per il nostro test abbiamo perciò reclutato un campione di 5 partecipanti, scelti tra diverse fasce di età e di esperienza in merito all'utilizzo di computer e di Internet.
 
 In fase di briefing, è stato loro sottoposto un [questionario](https://forms.gle/NuUQovPBBxdL46B78), nel quale vengono richiesti alcuni dati personali (come ad esempio sesso, età, professione, ...) con la finalità di raccogliere i relativi profili. Nel questionario vengono inoltre spiegati lo scopo e lo svolgimento del test.
 
 <br/>
 
-La seguente tabella riassume i profili degli utenti, raccolti tramite il questionario, ai quali è stato sottoposto il test:
+La seguente tabella riassume i profili dei partecipanti, raccolti tramite il questionario, ai quali è stato sottoposto il test:
 
 <table class="docutils profiles">
     <thead>
         <tr>
             <th></th>
-            <th scope="col">Utente A</th>
-            <th scope="col">Utente B</th>
-            <th scope="col">Utente C</th>
-            <th scope="col">Utente D</th>
-            <th scope="col">Utente E</th>
+            <th scope="col">Partecipante A</th>
+            <th scope="col">Partecipante B</th>
+            <th scope="col">Partecipante C</th>
+            <th scope="col">Partecipante D</th>
+            <th scope="col">Partecipante E</th>
         </tr>
     </thead>
     <tbody>
