@@ -73,6 +73,10 @@ a:hover {
      margin-top: 60px;
 }
 
+.home-link {
+     font-size: 22px;
+}
+
 h1, h2, h3, h4, h5, h6 {
      margin-top: 30px;
      margin-bottom: 4px;
