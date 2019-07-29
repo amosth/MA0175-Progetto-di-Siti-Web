@@ -14,8 +14,8 @@ date: 2019-07-10
 Consultare il TGR (Tele Giornale Regione) trasmesso la sera precedente.  
 **NB**: il test di questo caso d'uso è stato considerato POSITIVO nonostante le repliche dei telegiornali siano rese fruibili tramite il sito nazionale [Rai News](https://rainews.it).
 
-<div class="test-box border-success">
-     <div class="test-box-head bg-success">
+<div class="test-box border-danger">
+     <div class="test-box-head bg-danger">
           <h3>Partecipante A</h3>
           <p><strong>Esito: </strong>NEGATIVO</p>
           <p><strong>Tempo impiegato: </strong>1 minuto 45 secondi</p>
