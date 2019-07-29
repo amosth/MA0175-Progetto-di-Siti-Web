@@ -1,7 +1,41 @@
-/* Ho messo black per vedere se aumenta il contrasto ma nulla */
+/* FONTS */
+
+@import url('fonts/Inconsolata/Inconsolata-Bold.ttf');
+@import url('fonts/Inconsolata/Inconsolata-Regular.ttf');
+
+@import url('fonts/Lato/Lato-Black.ttf');
+@import url('fonts/Lato/Lato-BlackItalic.ttf');
+@import url('fonts/Lato/Lato-Bold.ttf');
+@import url('fonts/Lato/Lato-BoldItalic.ttf');
+@import url('fonts/Lato/Lato-Light.ttf');
+@import url('fonts/Lato/Lato-LightItalic.ttf');
+@import url('fonts/Lato/Lato-Regular.ttf');
+@import url('fonts/Lato/Lato-RegularItalic.ttf');
+@import url('fonts/Lato/Lato-Thin.ttf');
+@import url('fonts/Lato/Lato-ThinItalic.ttf');
+
+@import url('fonts/Robot_Slab/RobotoSlab-Bold');
+@import url('fonts/Robot_Slab/RobotoSlab-Light');
+@import url('fonts/Robot_Slab/RobotoSlab-Regular');
+@import url('fonts/Robot_Slab/RobotoSlab-Thin');
+
+h1, h2, h3, h4, h5, h6, legend {
+    margin-top: 0;
+    font-weight: 700;
+    font-family: "Roboto Slab","ff-tisa-web-pro","Georgia",Arial,sans-serif;
+}
+
 body {
+    font-family: "Lato","proxima-nova","Helvetica Neue",Arial,sans-serif;
+    font-weight: normal;
     color: black;
 }
+
+ code {
+     font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+ }
+
+/* END FONTS */
 
 a {
     color: #206A9A;
