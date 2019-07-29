@@ -87,6 +87,10 @@ table.docutils thead th{
     text-align: center;
 }
 
+table.docutils td.centred{
+    text-align: center !important;
+}
+
 td.result{
     text-align: center !important;
 }
