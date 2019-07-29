@@ -16,18 +16,15 @@ Per lo svolgimento del test sono state seguite queste fasi:
     - Determinazione obiettivi del test;
     - Reclutamento partecipanti con criteri di screening (età, lavoro, esperienza utilizzo computer/Internet, ...);
     - Individuazione degli scenari d'uso;
-    - Definizione dei compiti;
-
+    - Definizione dei compiti;  
 - **Briefing**:
     - Accoglienza del partecipante e spiegazione di come si svolgerà il test;
     - Spiegazione dello svolgimento dei compiti da eseguire durante il test;
-    - Richiesta consenso per la registrazione di dati durante il test;
-
+    - Richiesta consenso per la registrazione di dati durante il test;  
 - **Esecuzione**:
     - Lettura dei casi d'uso;
     - Inizio esecuzione del test;
-    - Raccolta dati relativi all'esecuzione del test;
-
+    - Raccolta dati relativi all'esecuzione del test;  
 - **Debriefing**:
     - Domande aggiuntive al partecipante sulle sue impressioni e sensazioni durante lo svolgimento del test.
 
