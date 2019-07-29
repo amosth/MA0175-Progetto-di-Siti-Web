@@ -1,9 +1,9 @@
 # Relazioni finali - Progetto di Siti e Portali Web
 
-## Rapporto di conformità WCAG 2.1 del sito "La Santa Sede"
+Questo è il risultato del lavoro svolto al termine del corso di "Progetto di Siti e Portali Web" tenuto dal Prof. [Giorgio Brajnik](https://users.dimi.uniud.it/~giorgio.brajnik/). Esso contiene due relazioni riguardanti la conformità alle [linee guida WCAG 2.1](https://www.w3.org/TR/WCAG21/) del sito de [La Santa Sede](http://w2.vatican.va) e lo svolgimento di un user test per il sito della [Sede Rai del Friuli Venezia-Giulia](https://sedefvg.rai.it).
 
-[Vai al rapporto di conformità WCAG 2.1 "vatican.va"](wcag_vatican_introduzione.md)
+## [Rapporto di conformità WCAG 2.1 del sito "La Santa Sede"](wcag_vatican_introduzione.md)
 
-## Rapporto di test con utenti del sito "RAI Friuli Venezia Giulia"
+## [Rapporto di test con utenti del sito "RAI Friuli Venezia Giulia"](ut_sedefvg_introduzione.md)
 
-[Vai al rapporto di test con utenti "sedefvg.rai.it"](ut_sedefvg_introduzione.md)
+## [Autori](AUTHORS.md)
