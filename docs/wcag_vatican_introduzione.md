@@ -69,8 +69,9 @@ Le pagine sono state analizzate tramite tre PC portatili con le seguenti caratte
 
 Gli strumenti utilizzati per aiutarsi nell’analisi sono stati:
 
-- WAVE: tool per controllare l’accessibilità delle pagine web (estensione per Google Chrome e Mozilla Firefox).
-- Assistente vocale di Windows 10 "Narrator".
+- WAVE: tool per controllare l’accessibilità delle pagine web (estensione per Google Chrome e Mozilla Firefox);
+- Assistente vocale di Windows 10 "Narrator";
+- Assistente vocale di macOS Mojave "Voice Over".
 
 ## Perimetro dell'indagine
 
