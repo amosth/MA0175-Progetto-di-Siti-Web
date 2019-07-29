@@ -167,7 +167,7 @@ date: 2019-07-10
             <td>3.1.2 Parti in lingua</td>
         </tr>
         <tr class="success">
-            <td rowspan="6" class="result">POSITIVO</td>
+            <td rowspan="7" class="result">POSITIVO</td>
             <td>1.3.4 Orientamento</td>
         </tr>
         <tr class="success">
@@ -178,6 +178,9 @@ date: 2019-07-10
         </tr>
         <tr class="success">
             <td>1.4.13 Contenuto con Hover o Focus</td>
+        </tr>
+        <tr class="success">
+            <td>2.4.5 Differenti modalità</td>
         </tr>
         <tr class="success">
             <td>3.2.3 Navigazione coerente</td>

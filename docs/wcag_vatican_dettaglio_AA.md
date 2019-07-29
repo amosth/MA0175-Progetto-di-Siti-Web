@@ -207,7 +207,7 @@ I componenti e la navigazione dell'interfaccia utente devono essere utilizzabili
 Fornire delle funzionalità di supporto all'utente per navigare, trovare contenuti e determinare la propria posizione.
 
 
-<div class="success-criteria success-criteria-success">
+<div class="success-criteria success-criteria-danger">
      <h4>Criterio di successo 2.4.5 Differenti modalità</h4>
      <p>Rendere disponibili più modalità per identificare una pagina Web all'interno di un insieme di pagine Web, salvo il caso in cui una pagina Web sia il risultato – o una fase – di un'azione.</p>
      <br>
