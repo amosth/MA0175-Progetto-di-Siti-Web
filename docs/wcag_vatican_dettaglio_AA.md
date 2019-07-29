@@ -218,7 +218,7 @@ Fornire delle funzionalità di supporto all'utente per navigare, trovare contenu
      <h4>Criterio di successo 2.4.6 Intestazioni ed etichette</h4>
      <p>Utilizzare intestazioni ed etichette per descrivere argomenti o finalità.</p>
      <br>
-     <p><strong>Esito: POSITIVO</strong></p>
+     <p><strong>Esito: NEGATIVO</strong></p>
 </div>
 
 <br/>
