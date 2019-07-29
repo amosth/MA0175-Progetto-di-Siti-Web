@@ -19,6 +19,11 @@
 @import url('fonts/Roboto_Slab/RobotoSlab-Regular.ttf');
 @import url('fonts/Roboto_Slab/RobotoSlab-Thin.ttf');
 
+@font-face {
+  font-family: Roboto Slab;
+  src: url('fonts/Roboto_Slab/RobotoSlab-Regular.ttf');
+}
+
 h1, h2, h3, h4, h5, h6, legend {
     margin-top: 0;
     font-weight: 700;
