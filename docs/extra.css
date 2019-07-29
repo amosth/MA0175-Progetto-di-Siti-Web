@@ -14,10 +14,10 @@
 @import url('fonts/Lato/Lato-Thin.ttf');
 @import url('fonts/Lato/Lato-ThinItalic.ttf');
 
-@import url('fonts/Robot_Slab/RobotoSlab-Bold');
-@import url('fonts/Robot_Slab/RobotoSlab-Light');
-@import url('fonts/Robot_Slab/RobotoSlab-Regular');
-@import url('fonts/Robot_Slab/RobotoSlab-Thin');
+@import url('fonts/Roboto_Slab/RobotoSlab-Bold.ttf');
+@import url('fonts/Roboto_Slab/RobotoSlab-Light.ttf');
+@import url('fonts/Roboto_Slab/RobotoSlab-Regular.ttf');
+@import url('fonts/Roboto_Slab/RobotoSlab-Thin.ttf');
 
 h1, h2, h3, h4, h5, h6, legend {
     margin-top: 0;
